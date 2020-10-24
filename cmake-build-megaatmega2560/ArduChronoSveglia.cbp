@@ -8,54 +8,54 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560"/>
+				<Option working_dir="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Production">
-				<Option working_dir="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560"/>
+				<Option working_dir="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 Production"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560"/>
+				<Option working_dir="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Debug">
-				<Option working_dir="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560"/>
+				<Option working_dir="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 Debug"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Z_DUMMY_TARGET">
-				<Option output="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560"/>
+				<Option output="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/include"/>
-					<Add directory="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src"/>
+					<Add directory="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/include"/>
+					<Add directory="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src"/>
 					<Add directory="C:/Users/Gabriele/.platformio/packages/framework-arduino-avr/cores/arduino"/>
 					<Add directory="C:/Users/Gabriele/.platformio/packages/framework-arduino-avr/variants/mega"/>
 					<Add directory="C:/Users/Gabriele/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
@@ -76,21 +76,21 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Z_DUMMY_TARGET/fast">
-				<Option output="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560"/>
+				<Option output="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/include"/>
-					<Add directory="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src"/>
+					<Add directory="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/include"/>
+					<Add directory="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src"/>
 					<Add directory="C:/Users/Gabriele/.platformio/packages/framework-arduino-avr/cores/arduino"/>
 					<Add directory="C:/Users/Gabriele/.platformio/packages/framework-arduino-avr/variants/mega"/>
 					<Add directory="C:/Users/Gabriele/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
@@ -111,576 +111,576 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560"/>
+				<Option working_dir="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Alarm/Alarm.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Alarm/Alarm.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Alarm/Alarm.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Alarm/Alarm.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/hooks/README.sample">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/hooks/README.sample">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/logs/refs/heads/Version-2.0">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/logs/refs/heads/Version-2.0">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/logs/refs/remotes/origin/Version-1.2">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/logs/refs/remotes/origin/Version-1.2">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/logs/refs/remotes/origin/Version-1.3">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/logs/refs/remotes/origin/Version-1.3">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/logs/refs/remotes/origin/Version-1.5S">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/logs/refs/remotes/origin/Version-1.5S">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/logs/refs/remotes/origin/Version-2.0">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/logs/refs/remotes/origin/Version-2.0">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/objects/pack/pack-62e417773c5ad050dcbdc657c5380790b807c2f2.idx">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/objects/pack/pack-62e417773c5ad050dcbdc657c5380790b807c2f2.idx">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/objects/pack/pack-62e417773c5ad050dcbdc657c5380790b807c2f2.pack">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/objects/pack/pack-62e417773c5ad050dcbdc657c5380790b807c2f2.pack">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/objects/pack/pack-8d02be10c621e20333885a32ed946beff6a4f9c6.idx">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/objects/pack/pack-8d02be10c621e20333885a32ed946beff6a4f9c6.idx">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/objects/pack/pack-8d02be10c621e20333885a32ed946beff6a4f9c6.pack">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/objects/pack/pack-8d02be10c621e20333885a32ed946beff6a4f9c6.pack">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/refs/heads/Version-2.0">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/refs/heads/Version-2.0">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/refs/remotes/origin/Version-1.2">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/refs/remotes/origin/Version-1.2">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/refs/remotes/origin/Version-1.3">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/refs/remotes/origin/Version-1.3">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/refs/remotes/origin/Version-1.5S">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/refs/remotes/origin/Version-1.5S">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/.git/refs/remotes/origin/Version-2.0">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.git/refs/remotes/origin/Version-2.0">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/ArduWin.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.idea/serialmonitor_settings.xml">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/ArduWin/ArduWin.bmarks">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/.idea/workspace.xml">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/ArduWin/ArduWin.cbp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/ArduWin.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/ArduWin/ArduWin.layout">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GButton.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GButton.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GButton.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GButton.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GCheckBox.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GCheckBox.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GCheckBox.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GCheckBox.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GControl.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GControl.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GControl.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GControl.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GError.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GError.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GError.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GError.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GEvent.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GEvent.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GEvent.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GEvent.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GIcon.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GIcon.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GIcon.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GIcon.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GLabel.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GLabel.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GLabel.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GLabel.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GNotification.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GNotification.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GNotification.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GNotification.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GWinList.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GWinList.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GWinList.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GWinList.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GWindow.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GWindow.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/GWindow.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/GWindow.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/README.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/README.md">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/default_icons.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/default_icons.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/examples/BackBtnHandler.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/examples/BackBtnHandler.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/examples/ButtonPressEmulating/ButtonPressEmulating.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/examples/ButtonPressEmulating/ButtonPressEmulating.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/examples/ButtonWithIcon.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/examples/ButtonWithIcon.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/examples/ButtonWithIcon/ButtonWithIcon.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/examples/ButtonWithIcon/ButtonWithIcon.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/examples/SimpleLabel.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/examples/SimpleLabel.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/examples/SimpleLabel/SimpleLabel.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/examples/SimpleLabel/SimpleLabel.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/examples/SimpleLabelWithIcon.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/examples/SimpleLabelWithIcon.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/examples/SimpleLabelWithIcon/SimpleLabelWithIcon.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/examples/SimpleLabelWithIcon/SimpleLabelWithIcon.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/examples/SimpleWindow.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/examples/SimpleWindow.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/examples/SimpleWindow/SimpleWindow.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/examples/SimpleWindow/SimpleWindow.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/examples/TwoWindows.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/examples/TwoWindows.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/examples/TwoWindows/TwoWindows.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/examples/TwoWindows/TwoWindows.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/examples/WinList/WinList.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/examples/WinList/WinList.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/flags.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/icons/checked_icon.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/icons/checked_icon.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/icons/clock_icon.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/icons/clock_icon.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/icons/empty_icon.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/icons/empty_icon.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/icons/unchecked_icon.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/icons/unchecked_icon.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/keywords.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/keywords.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/location.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/location.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/notes.html">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/notes.html">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/ArduWin/per-iniziare-ardwin.pdf">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/ArduWin/per-iniziare-ardwin.pdf">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Button/Button.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Button/Button.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Button/Button.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Button/Button.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Button/keywords.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Button/keywords.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.o">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.o">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/LiquidCrystal_I2C/README.md">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/LiquidCrystal_I2C/README.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/LiquidCrystal_I2C/examples/CustomChars/CustomChars.pde">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/LiquidCrystal_I2C/examples/CustomChars/CustomChars.pde">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/LiquidCrystal_I2C/examples/HelloWorld/HelloWorld.pde">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/LiquidCrystal_I2C/examples/HelloWorld/HelloWorld.pde">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/LiquidCrystal_I2C/examples/SerialDisplay/SerialDisplay.pde">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/LiquidCrystal_I2C/examples/SerialDisplay/SerialDisplay.pde">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/LiquidCrystal_I2C/keywords.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/LiquidCrystal_I2C/keywords.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/LiquidCrystal_I2C/library.json">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/LiquidCrystal_I2C/library.json">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/LiquidCrystal_I2C/library.properties">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/LiquidCrystal_I2C/library.properties">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/RTClib/README.md">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/RTClib/README.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/RTClib/RTClib.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/RTClib/RTClib.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/RTClib/RTClib.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/RTClib/RTClib.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/RTClib/examples/datecalc/datecalc.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/RTClib/examples/datecalc/datecalc.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/RTClib/examples/ds1307/ds1307.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/RTClib/examples/ds1307/ds1307.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/RTClib/examples/ds1307SqwPin/ds1307SqwPin.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/RTClib/examples/ds1307SqwPin/ds1307SqwPin.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/RTClib/examples/ds1307nvram/ds1307nvram.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/RTClib/examples/ds1307nvram/ds1307nvram.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/RTClib/examples/ds3231/ds3231.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/RTClib/examples/ds3231/ds3231.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/RTClib/examples/pcf8523/pcf8523.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/RTClib/examples/pcf8523/pcf8523.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/RTClib/examples/softrtc/softrtc.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/RTClib/examples/softrtc/softrtc.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/RTClib/keywords.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/RTClib/keywords.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/RTClib/library.properties">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/RTClib/library.properties">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/.travis.yml">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/.travis.yml">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/README.adoc">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/README.adoc">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/examples/CardInfo/CardInfo.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/examples/CardInfo/CardInfo.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/examples/Datalogger/Datalogger.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/examples/Datalogger/Datalogger.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/examples/DumpFile/DumpFile.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/examples/DumpFile/DumpFile.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/examples/Files/Files.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/examples/Files/Files.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/examples/NonBlockingWrite/NonBlockingWrite.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/examples/NonBlockingWrite/NonBlockingWrite.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/examples/ReadWrite/ReadWrite.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/examples/ReadWrite/ReadWrite.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/examples/listfiles/listfiles.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/examples/listfiles/listfiles.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/extras/codespell-ignore-words-list.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/extras/codespell-ignore-words-list.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/keywords.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/keywords.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/library.properties">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/library.properties">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/src/File.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/src/File.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/src/README.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/src/README.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/src/SD.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/src/SD.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/src/SD.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/src/SD.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/src/utility/FatStructs.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/src/utility/FatStructs.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/src/utility/Sd2Card.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/src/utility/Sd2Card.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/src/utility/Sd2Card.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/src/utility/Sd2Card.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/src/utility/Sd2PinMap.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/src/utility/Sd2PinMap.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/src/utility/SdFat.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/src/utility/SdFat.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/src/utility/SdFatUtil.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/src/utility/SdFatUtil.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/src/utility/SdFatmainpage.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/src/utility/SdFatmainpage.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/src/utility/SdFile.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/src/utility/SdFile.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/src/utility/SdInfo.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/src/utility/SdInfo.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SD/src/utility/SdVolume.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SD/src/utility/SdVolume.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SimpleDHT/README.md">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SimpleDHT/README.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SimpleDHT/SimpleDHT.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SimpleDHT/SimpleDHT.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SimpleDHT/SimpleDHT.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SimpleDHT/SimpleDHT.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SimpleDHT/examples/DHT11Default/DHT11Default.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SimpleDHT/examples/DHT11Default/DHT11Default.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SimpleDHT/examples/DHT11ErrCount/DHT11ErrCount.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SimpleDHT/examples/DHT11ErrCount/DHT11ErrCount.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SimpleDHT/examples/DHT11WithRawBits/DHT11WithRawBits.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SimpleDHT/examples/DHT11WithRawBits/DHT11WithRawBits.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SimpleDHT/examples/DHT22Default/DHT22Default.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SimpleDHT/examples/DHT22Default/DHT22Default.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SimpleDHT/examples/DHT22ErrCount/DHT22ErrCount.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SimpleDHT/examples/DHT22ErrCount/DHT22ErrCount.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SimpleDHT/examples/DHT22Integer/DHT22Integer.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SimpleDHT/examples/DHT22Integer/DHT22Integer.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SimpleDHT/examples/DHT22WithRawBits/DHT22WithRawBits.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SimpleDHT/examples/DHT22WithRawBits/DHT22WithRawBits.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SimpleDHT/examples/TwoSensorsDefault/TwoSensorsDefault.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SimpleDHT/examples/TwoSensorsDefault/TwoSensorsDefault.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SimpleDHT/keywords.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SimpleDHT/keywords.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/SimpleDHT/library.properties">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/SimpleDHT/library.properties">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/TEA5767Radio/TEA5767Radio.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/TEA5767Radio/TEA5767Radio.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/TEA5767Radio/TEA5767Radio.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/TEA5767Radio/TEA5767Radio.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/TEA5767Radio/examples/SimpleFixedFrequency/SimpleFixedFrequency.ino">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/TEA5767Radio/examples/SimpleFixedFrequency/SimpleFixedFrequency.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/TEA5767Radio/keywords.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/TEA5767Radio/keywords.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/TimeDate/TimeDate.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/TimeDate/TimeDate.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/TimeDate/TimeDate.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/TimeDate/TimeDate.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Tone/README.md">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Tone/README.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Tone/Tone.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Tone/Tone.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Tone/Tone.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Tone/Tone.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Tone/changelog.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Tone/changelog.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Tone/examples/DTMFTest/DTMFTest.pde">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Tone/examples/DTMFTest/DTMFTest.pde">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Tone/examples/RTTTL/RTTTL.pde">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Tone/examples/RTTTL/RTTTL.pde">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Tone/examples/ToneTest/ToneTest.pde">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Tone/examples/ToneTest/ToneTest.pde">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Tone/keywords.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Tone/keywords.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Tone/library.properties">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Tone/library.properties">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/Tone/license.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/Tone/license.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Files/PINS.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Files/PINS.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Files/device_pinnouts.CONF">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Files/device_pinnouts.CONF">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Interface/Init.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Interface/Init.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Interface/Interface.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Interface/Interface.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Interface/Update.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Interface/Update.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Keypad/events.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Keypad/events.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Keypad/handlers.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Keypad/handlers.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Keypad/init.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Keypad/init.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Keypad/update.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Keypad/update.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Lights/init.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Lights/init.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Lights/update.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Lights/update.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Schemi/Alimentazione.OutJob">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Schemi/Alimentazione.OutJob">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Schemi/Alimentazione.SchDoc">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Schemi/Alimentazione.SchDoc">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Schemi/Alimentazione.SchDocPreview">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Schemi/Alimentazione.SchDocPreview">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Schemi/Alimentazione.pdf">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Schemi/Alimentazione.pdf">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Schemi/Free Documents.OutJob">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Schemi/Free Documents.OutJob">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Schemi/History/Alimentazione.~(1).SchDoc.Zip">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Schemi/History/Alimentazione.~(1).SchDoc.Zip">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Schemi/History/Alimentazione.~(2).SchDoc.Zip">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Schemi/History/Alimentazione.~(2).SchDoc.Zip">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Schemi/History/Alimentazione.~(3).SchDoc.Zip">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Schemi/History/Alimentazione.~(3).SchDoc.Zip">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Schemi/History/Alimentazione.~(4).SchDoc.Zip">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Schemi/History/Alimentazione.~(4).SchDoc.Zip">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Serial/Events.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Serial/Events.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Serial/Handlers.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Serial/Handlers.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Serial/init.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Serial/init.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Serial/serial.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Serial/serial.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Serial/update.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Serial/update.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Storage/init.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Storage/init.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Storage/update.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Storage/update.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Time/init.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Time/init.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Time/update.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Time/update.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Utils/DisplayUtils.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Utils/DisplayUtils.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Utils/ShieldUtils.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Utils/ShieldUtils.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/Utils/StringUtils.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/Utils/StringUtils.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/main.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/main.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/main/PinDefs.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/main/PinDefs.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/main/Project.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/main/Project.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/main/output_register.h">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/main/output_register.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/main/serfun.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/main/serfun.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/mode.cpp">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/mode.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/src/notes.html">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/src/notes.html">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/CMakeLists.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/CMakeListsPrivate.txt">
+		<Unit filename="F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/CMakeListsPrivate.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

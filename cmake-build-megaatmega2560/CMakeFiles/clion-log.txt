@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=megaatmega2560 -G "CodeBlocks - MinGW Makefiles" F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=megaatmega2560 -G "CodeBlocks - MinGW Makefiles" F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia
 -- The C compiler identification is GNU 6.3.0
 -- The CXX compiler identification is GNU 6.3.0
 -- Detecting C compiler ABI info
@@ -11,4 +11,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560
+-- Build files have been written to: F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560

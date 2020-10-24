@@ -1,4 +1,4 @@
-# Install script for directory: F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia
+# Install script for directory: F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/cmake-build-megaatmega2560/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

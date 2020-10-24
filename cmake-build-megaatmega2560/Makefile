@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia
+CMAKE_SOURCE_DIR = F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560
+CMAKE_BINARY_DIR = F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -464,6 +464,33 @@ lib/ArduWin/GWindow.s: lib/ArduWin/GWindow.cpp.s
 lib/ArduWin/GWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWindow.cpp.s
 .PHONY : lib/ArduWin/GWindow.cpp.s
+
+lib/ArduWin/flags.obj: lib/ArduWin/flags.cpp.obj
+
+.PHONY : lib/ArduWin/flags.obj
+
+# target to build an object file
+lib/ArduWin/flags.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/flags.cpp.obj
+.PHONY : lib/ArduWin/flags.cpp.obj
+
+lib/ArduWin/flags.i: lib/ArduWin/flags.cpp.i
+
+.PHONY : lib/ArduWin/flags.i
+
+# target to preprocess a source file
+lib/ArduWin/flags.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/flags.cpp.i
+.PHONY : lib/ArduWin/flags.cpp.i
+
+lib/ArduWin/flags.s: lib/ArduWin/flags.cpp.s
+
+.PHONY : lib/ArduWin/flags.s
+
+# target to generate assembly for a file
+lib/ArduWin/flags.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/flags.cpp.s
+.PHONY : lib/ArduWin/flags.cpp.s
 
 lib/ArduWin/icons/checked_icon.obj: lib/ArduWin/icons/checked_icon.cpp.obj
 
@@ -1643,6 +1670,9 @@ help:
 	@echo ... lib/ArduWin/GWindow.obj
 	@echo ... lib/ArduWin/GWindow.i
 	@echo ... lib/ArduWin/GWindow.s
+	@echo ... lib/ArduWin/flags.obj
+	@echo ... lib/ArduWin/flags.i
+	@echo ... lib/ArduWin/flags.s
 	@echo ... lib/ArduWin/icons/checked_icon.obj
 	@echo ... lib/ArduWin/icons/checked_icon.i
 	@echo ... lib/ArduWin/icons/checked_icon.s

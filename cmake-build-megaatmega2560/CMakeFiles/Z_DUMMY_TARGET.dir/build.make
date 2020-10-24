@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia
+CMAKE_SOURCE_DIR = F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560
+CMAKE_BINARY_DIR = F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Z_DUMMY_TARGET.dir/depend.make
@@ -78,692 +78,705 @@ include CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/Alarm/Alarm.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/Alarm/Alarm.cpp.obj: ../lib/Alarm/Alarm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/Alarm/Alarm.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\Alarm\Alarm.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\Alarm\Alarm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/Alarm/Alarm.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\Alarm\Alarm.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\Alarm\Alarm.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/Alarm/Alarm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/Alarm/Alarm.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\Alarm\Alarm.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\Alarm\Alarm.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\Alarm\Alarm.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\Alarm\Alarm.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/Alarm/Alarm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/Alarm/Alarm.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\Alarm\Alarm.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\Alarm\Alarm.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\Alarm\Alarm.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\Alarm\Alarm.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GButton.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GButton.cpp.obj: ../lib/ArduWin/GButton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GButton.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GButton.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GButton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GButton.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GButton.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GButton.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GButton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GButton.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GButton.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GButton.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GButton.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GButton.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GButton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GButton.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GButton.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GButton.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GButton.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GButton.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GCheckBox.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GCheckBox.cpp.obj: ../lib/ArduWin/GCheckBox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GCheckBox.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GCheckBox.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GCheckBox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GCheckBox.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GCheckBox.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GCheckBox.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GCheckBox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GCheckBox.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GCheckBox.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GCheckBox.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GCheckBox.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GCheckBox.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GCheckBox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GCheckBox.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GCheckBox.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GCheckBox.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GCheckBox.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GCheckBox.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GControl.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GControl.cpp.obj: ../lib/ArduWin/GControl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GControl.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GControl.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GControl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GControl.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GControl.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GControl.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GControl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GControl.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GControl.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GControl.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GControl.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GControl.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GControl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GControl.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GControl.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GControl.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GControl.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GControl.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GError.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GError.cpp.obj: ../lib/ArduWin/GError.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GError.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GError.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GError.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GError.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GError.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GError.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GError.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GError.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GError.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GError.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GError.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GError.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GError.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GError.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GError.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GError.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GError.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GError.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GEvent.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GEvent.cpp.obj: ../lib/ArduWin/GEvent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GEvent.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GEvent.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GEvent.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GEvent.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GEvent.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GEvent.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GEvent.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GEvent.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GEvent.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GEvent.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GEvent.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GEvent.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GEvent.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GEvent.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GEvent.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GIcon.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GIcon.cpp.obj: ../lib/ArduWin/GIcon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GIcon.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GIcon.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GIcon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GIcon.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GIcon.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GIcon.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GIcon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GIcon.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GIcon.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GIcon.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GIcon.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GIcon.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GIcon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GIcon.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GIcon.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GIcon.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GIcon.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GIcon.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GLabel.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GLabel.cpp.obj: ../lib/ArduWin/GLabel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GLabel.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GLabel.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GLabel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GLabel.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GLabel.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GLabel.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GLabel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GLabel.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GLabel.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GLabel.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GLabel.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GLabel.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GLabel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GLabel.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GLabel.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GLabel.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GLabel.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GLabel.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GNotification.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GNotification.cpp.obj: ../lib/ArduWin/GNotification.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GNotification.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GNotification.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GNotification.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GNotification.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GNotification.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GNotification.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GNotification.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GNotification.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GNotification.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GNotification.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GNotification.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GNotification.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GNotification.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GNotification.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GNotification.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GNotification.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GNotification.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GNotification.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWinList.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWinList.cpp.obj: ../lib/ArduWin/GWinList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWinList.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GWinList.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GWinList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWinList.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GWinList.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GWinList.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWinList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWinList.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GWinList.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GWinList.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GWinList.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GWinList.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWinList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWinList.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GWinList.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GWinList.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GWinList.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GWinList.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWindow.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWindow.cpp.obj: ../lib/ArduWin/GWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWindow.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GWindow.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWindow.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GWindow.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GWindow.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWindow.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GWindow.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GWindow.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GWindow.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GWindow.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWindow.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\GWindow.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GWindow.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\GWindow.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\GWindow.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/flags.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/flags.cpp.obj: ../lib/ArduWin/flags.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/flags.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\flags.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\flags.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/flags.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/flags.cpp.i"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\flags.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\flags.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/flags.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/flags.cpp.s"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\flags.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\flags.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/checked_icon.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/checked_icon.cpp.obj: ../lib/ArduWin/icons/checked_icon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/checked_icon.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\checked_icon.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\icons\checked_icon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/checked_icon.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\checked_icon.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\icons\checked_icon.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/checked_icon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/checked_icon.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\icons\checked_icon.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\checked_icon.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\icons\checked_icon.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\checked_icon.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/checked_icon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/checked_icon.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\icons\checked_icon.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\checked_icon.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\icons\checked_icon.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\checked_icon.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/clock_icon.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/clock_icon.cpp.obj: ../lib/ArduWin/icons/clock_icon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/clock_icon.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\clock_icon.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\icons\clock_icon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/clock_icon.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\clock_icon.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\icons\clock_icon.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/clock_icon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/clock_icon.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\icons\clock_icon.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\clock_icon.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\icons\clock_icon.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\clock_icon.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/clock_icon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/clock_icon.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\icons\clock_icon.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\clock_icon.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\icons\clock_icon.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\clock_icon.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/empty_icon.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/empty_icon.cpp.obj: ../lib/ArduWin/icons/empty_icon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/empty_icon.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\empty_icon.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\icons\empty_icon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/empty_icon.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\empty_icon.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\icons\empty_icon.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/empty_icon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/empty_icon.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\icons\empty_icon.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\empty_icon.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\icons\empty_icon.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\empty_icon.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/empty_icon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/empty_icon.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\icons\empty_icon.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\empty_icon.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\icons\empty_icon.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\empty_icon.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/unchecked_icon.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/unchecked_icon.cpp.obj: ../lib/ArduWin/icons/unchecked_icon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/unchecked_icon.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\unchecked_icon.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\icons\unchecked_icon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/unchecked_icon.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\unchecked_icon.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\icons\unchecked_icon.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/unchecked_icon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/unchecked_icon.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\icons\unchecked_icon.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\unchecked_icon.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\icons\unchecked_icon.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\unchecked_icon.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/unchecked_icon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/unchecked_icon.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\ArduWin\icons\unchecked_icon.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\unchecked_icon.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\ArduWin\icons\unchecked_icon.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\ArduWin\icons\unchecked_icon.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/Button/Button.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/Button/Button.cpp.obj: ../lib/Button/Button.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/Button/Button.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\Button\Button.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\Button\Button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/Button/Button.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\Button\Button.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\Button\Button.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/Button/Button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/Button/Button.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\Button\Button.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\Button\Button.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\Button\Button.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\Button\Button.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/Button/Button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/Button/Button.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\Button\Button.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\Button\Button.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\Button\Button.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\Button\Button.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.obj: ../lib/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/RTClib/RTClib.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/RTClib/RTClib.cpp.obj: ../lib/RTClib/RTClib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/RTClib/RTClib.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\RTClib\RTClib.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\RTClib\RTClib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/RTClib/RTClib.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\RTClib\RTClib.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\RTClib\RTClib.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/RTClib/RTClib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/RTClib/RTClib.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\RTClib\RTClib.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\RTClib\RTClib.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\RTClib\RTClib.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\RTClib\RTClib.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/RTClib/RTClib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/RTClib/RTClib.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\RTClib\RTClib.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\RTClib\RTClib.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\RTClib\RTClib.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\RTClib\RTClib.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/File.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/File.cpp.obj: ../lib/SD/src/File.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/File.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\File.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\File.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/File.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\File.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\File.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/File.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/File.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\File.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\File.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\File.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\File.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/File.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/File.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\File.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\File.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\File.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\File.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/SD.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/SD.cpp.obj: ../lib/SD/src/SD.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/SD.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\SD.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\SD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/SD.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\SD.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\SD.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/SD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/SD.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\SD.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\SD.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\SD.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\SD.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/SD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/SD.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\SD.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\SD.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\SD.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\SD.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/Sd2Card.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/Sd2Card.cpp.obj: ../lib/SD/src/utility/Sd2Card.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/Sd2Card.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\Sd2Card.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\utility\Sd2Card.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/Sd2Card.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\Sd2Card.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\utility\Sd2Card.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/Sd2Card.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/Sd2Card.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\utility\Sd2Card.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\Sd2Card.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\utility\Sd2Card.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\Sd2Card.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/Sd2Card.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/Sd2Card.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\utility\Sd2Card.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\Sd2Card.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\utility\Sd2Card.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\Sd2Card.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdFile.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdFile.cpp.obj: ../lib/SD/src/utility/SdFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdFile.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\SdFile.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\utility\SdFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdFile.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\SdFile.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\utility\SdFile.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdFile.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\utility\SdFile.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\SdFile.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\utility\SdFile.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\SdFile.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdFile.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\utility\SdFile.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\SdFile.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\utility\SdFile.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\SdFile.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdVolume.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdVolume.cpp.obj: ../lib/SD/src/utility/SdVolume.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdVolume.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\SdVolume.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\utility\SdVolume.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdVolume.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\SdVolume.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\utility\SdVolume.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdVolume.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdVolume.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\utility\SdVolume.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\SdVolume.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\utility\SdVolume.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\SdVolume.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdVolume.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/SD/src/utility/SdVolume.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SD\src\utility\SdVolume.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\SdVolume.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SD\src\utility\SdVolume.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SD\src\utility\SdVolume.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SimpleDHT/SimpleDHT.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SimpleDHT/SimpleDHT.cpp.obj: ../lib/SimpleDHT/SimpleDHT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/SimpleDHT/SimpleDHT.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SimpleDHT\SimpleDHT.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SimpleDHT\SimpleDHT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/SimpleDHT/SimpleDHT.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SimpleDHT\SimpleDHT.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SimpleDHT\SimpleDHT.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SimpleDHT/SimpleDHT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/SimpleDHT/SimpleDHT.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SimpleDHT\SimpleDHT.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\SimpleDHT\SimpleDHT.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SimpleDHT\SimpleDHT.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\SimpleDHT\SimpleDHT.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/SimpleDHT/SimpleDHT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/SimpleDHT/SimpleDHT.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\SimpleDHT\SimpleDHT.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SimpleDHT\SimpleDHT.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\SimpleDHT\SimpleDHT.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\SimpleDHT\SimpleDHT.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/TEA5767Radio/TEA5767Radio.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/TEA5767Radio/TEA5767Radio.cpp.obj: ../lib/TEA5767Radio/TEA5767Radio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/TEA5767Radio/TEA5767Radio.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\TEA5767Radio\TEA5767Radio.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\TEA5767Radio\TEA5767Radio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/TEA5767Radio/TEA5767Radio.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\TEA5767Radio\TEA5767Radio.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\TEA5767Radio\TEA5767Radio.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/TEA5767Radio/TEA5767Radio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/TEA5767Radio/TEA5767Radio.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\TEA5767Radio\TEA5767Radio.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\TEA5767Radio\TEA5767Radio.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\TEA5767Radio\TEA5767Radio.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\TEA5767Radio\TEA5767Radio.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/TEA5767Radio/TEA5767Radio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/TEA5767Radio/TEA5767Radio.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\TEA5767Radio\TEA5767Radio.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\TEA5767Radio\TEA5767Radio.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\TEA5767Radio\TEA5767Radio.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\TEA5767Radio\TEA5767Radio.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/TimeDate/TimeDate.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/TimeDate/TimeDate.cpp.obj: ../lib/TimeDate/TimeDate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/TimeDate/TimeDate.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\TimeDate\TimeDate.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\TimeDate\TimeDate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/TimeDate/TimeDate.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\TimeDate\TimeDate.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\TimeDate\TimeDate.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/TimeDate/TimeDate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/TimeDate/TimeDate.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\TimeDate\TimeDate.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\TimeDate\TimeDate.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\TimeDate\TimeDate.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\TimeDate\TimeDate.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/TimeDate/TimeDate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/TimeDate/TimeDate.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\TimeDate\TimeDate.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\TimeDate\TimeDate.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\TimeDate\TimeDate.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\TimeDate\TimeDate.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/Tone/Tone.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/Tone/Tone.cpp.obj: ../lib/Tone/Tone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/Tone/Tone.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\Tone\Tone.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\Tone\Tone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/Tone/Tone.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\Tone\Tone.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\Tone\Tone.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/Tone/Tone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/Tone/Tone.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\Tone\Tone.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\Tone\Tone.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\Tone\Tone.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\Tone\Tone.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/Tone/Tone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/Tone/Tone.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\lib\Tone\Tone.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\Tone\Tone.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\lib\Tone\Tone.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\Tone\Tone.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Init.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Init.cpp.obj: ../src/Interface/Init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Init.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Init.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Interface\Init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Init.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Init.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Interface\Init.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Init.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Interface\Init.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Init.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Interface\Init.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Init.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Init.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Interface\Init.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Init.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Interface\Init.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Init.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Interface.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Interface.cpp.obj: ../src/Interface/Interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Interface.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Interface.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Interface\Interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Interface.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Interface.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Interface\Interface.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Interface.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Interface\Interface.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Interface.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Interface\Interface.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Interface.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Interface.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Interface\Interface.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Interface.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Interface\Interface.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Interface.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Update.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Update.cpp.obj: ../src/Interface/Update.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Update.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Update.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Interface\Update.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Update.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Update.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Interface\Update.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Update.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Update.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Interface\Update.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Update.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Interface\Update.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Update.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Update.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Interface/Update.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Interface\Update.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Update.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Interface\Update.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Interface\Update.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/events.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/events.cpp.obj: ../src/Keypad/events.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/events.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\events.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Keypad\events.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/events.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\events.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Keypad\events.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/events.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/events.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Keypad\events.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\events.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Keypad\events.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\events.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/events.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/events.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Keypad\events.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\events.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Keypad\events.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\events.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/handlers.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/handlers.cpp.obj: ../src/Keypad/handlers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/handlers.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\handlers.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Keypad\handlers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/handlers.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\handlers.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Keypad\handlers.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/handlers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/handlers.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Keypad\handlers.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\handlers.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Keypad\handlers.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\handlers.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/handlers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/handlers.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Keypad\handlers.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\handlers.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Keypad\handlers.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\handlers.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/init.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/init.cpp.obj: ../src/Keypad/init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/init.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\init.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Keypad\init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/init.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\init.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Keypad\init.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/init.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Keypad\init.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\init.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Keypad\init.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\init.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/init.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Keypad\init.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\init.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Keypad\init.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\init.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/update.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/update.cpp.obj: ../src/Keypad/update.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/update.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\update.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Keypad\update.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/update.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\update.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Keypad\update.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/update.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/update.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Keypad\update.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\update.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Keypad\update.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\update.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/update.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Keypad/update.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Keypad\update.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\update.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Keypad\update.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Keypad\update.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/init.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/init.cpp.obj: ../src/Lights/init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/init.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Lights\init.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Lights\init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/init.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Lights\init.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Lights\init.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/init.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Lights\init.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Lights\init.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Lights\init.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Lights\init.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/init.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Lights\init.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Lights\init.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Lights\init.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Lights\init.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/update.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/update.cpp.obj: ../src/Lights/update.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/update.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Lights\update.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Lights\update.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/update.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Lights\update.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Lights\update.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/update.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/update.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Lights\update.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Lights\update.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Lights\update.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Lights\update.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/update.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Lights/update.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Lights\update.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Lights\update.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Lights\update.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Lights\update.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Events.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Events.cpp.obj: ../src/Serial/Events.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Events.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\Events.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\Events.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Events.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\Events.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\Events.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Events.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Events.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\Events.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\Events.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\Events.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\Events.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Events.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Events.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\Events.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\Events.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\Events.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\Events.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Handlers.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Handlers.cpp.obj: ../src/Serial/Handlers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Handlers.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\Handlers.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\Handlers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Handlers.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\Handlers.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\Handlers.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Handlers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Handlers.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\Handlers.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\Handlers.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\Handlers.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\Handlers.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Handlers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/Handlers.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\Handlers.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\Handlers.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\Handlers.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\Handlers.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/init.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/init.cpp.obj: ../src/Serial/init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/init.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\init.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/init.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\init.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\init.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/init.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\init.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\init.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\init.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\init.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/init.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\init.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\init.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\init.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\init.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/serial.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/serial.cpp.obj: ../src/Serial/serial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/serial.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\serial.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/serial.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\serial.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\serial.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/serial.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\serial.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\serial.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\serial.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\serial.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/serial.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\serial.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\serial.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\serial.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\serial.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/update.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/update.cpp.obj: ../src/Serial/update.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/update.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\update.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\update.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/update.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\update.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\update.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/update.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/update.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\update.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\update.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\update.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\update.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/update.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Serial/update.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Serial\update.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\update.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Serial\update.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Serial\update.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/init.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/init.cpp.obj: ../src/Storage/init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/init.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Storage\init.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Storage\init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/init.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Storage\init.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Storage\init.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/init.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Storage\init.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Storage\init.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Storage\init.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Storage\init.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/init.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Storage\init.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Storage\init.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Storage\init.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Storage\init.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/update.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/update.cpp.obj: ../src/Storage/update.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/update.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Storage\update.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Storage\update.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/update.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Storage\update.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Storage\update.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/update.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/update.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Storage\update.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Storage\update.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Storage\update.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Storage\update.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/update.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Storage/update.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Storage\update.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Storage\update.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Storage\update.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Storage\update.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/init.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/init.cpp.obj: ../src/Time/init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/init.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Time\init.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Time\init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/init.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Time\init.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Time\init.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/init.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Time\init.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Time\init.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Time\init.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Time\init.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/init.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Time\init.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Time\init.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Time\init.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Time\init.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/update.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/update.cpp.obj: ../src/Time/update.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/update.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Time\update.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Time\update.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/update.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Time\update.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Time\update.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/update.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/update.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Time\update.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Time\update.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Time\update.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Time\update.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/update.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Time/update.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Time\update.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Time\update.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Time\update.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Time\update.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/DisplayUtils.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/DisplayUtils.cpp.obj: ../src/Utils/DisplayUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/DisplayUtils.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\DisplayUtils.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Utils\DisplayUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/DisplayUtils.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\DisplayUtils.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Utils\DisplayUtils.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/DisplayUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/DisplayUtils.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Utils\DisplayUtils.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\DisplayUtils.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Utils\DisplayUtils.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\DisplayUtils.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/DisplayUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/DisplayUtils.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Utils\DisplayUtils.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\DisplayUtils.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Utils\DisplayUtils.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\DisplayUtils.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/ShieldUtils.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/ShieldUtils.cpp.obj: ../src/Utils/ShieldUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/ShieldUtils.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\ShieldUtils.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Utils\ShieldUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/ShieldUtils.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\ShieldUtils.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Utils\ShieldUtils.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/ShieldUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/ShieldUtils.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Utils\ShieldUtils.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\ShieldUtils.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Utils\ShieldUtils.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\ShieldUtils.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/ShieldUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/ShieldUtils.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Utils\ShieldUtils.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\ShieldUtils.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Utils\ShieldUtils.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\ShieldUtils.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/StringUtils.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/StringUtils.cpp.obj: ../src/Utils/StringUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/StringUtils.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\StringUtils.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Utils\StringUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/StringUtils.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\StringUtils.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Utils\StringUtils.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/StringUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/StringUtils.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Utils\StringUtils.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\StringUtils.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Utils\StringUtils.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\StringUtils.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/StringUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Utils/StringUtils.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\Utils\StringUtils.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\StringUtils.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\Utils\StringUtils.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\Utils\StringUtils.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\main.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\main.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\main.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\main.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\main.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\main.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\main.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main/PinDefs.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main/PinDefs.cpp.obj: ../src/main/PinDefs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main/PinDefs.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main\PinDefs.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\main\PinDefs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main/PinDefs.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main\PinDefs.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\main\PinDefs.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main/PinDefs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/main/PinDefs.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\main\PinDefs.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\main\PinDefs.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\main\PinDefs.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\main\PinDefs.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main/PinDefs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/main/PinDefs.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\main\PinDefs.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main\PinDefs.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\main\PinDefs.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main\PinDefs.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main/Project.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main/Project.cpp.obj: ../src/main/Project.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main/Project.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main\Project.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\main\Project.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main/Project.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main\Project.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\main\Project.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main/Project.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/main/Project.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\main\Project.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\main\Project.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\main\Project.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\main\Project.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main/Project.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/main/Project.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\main\Project.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main\Project.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\main\Project.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main\Project.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main/serfun.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main/serfun.cpp.obj: ../src/main/serfun.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main/serfun.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main\serfun.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\main\serfun.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main/serfun.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main\serfun.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\main\serfun.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main/serfun.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/main/serfun.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\main\serfun.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\main\serfun.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\main\serfun.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\main\serfun.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main/serfun.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/main/serfun.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\main\serfun.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main\serfun.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\main\serfun.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main\serfun.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/mode.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/mode.cpp.obj: ../src/mode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/mode.cpp.obj"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\mode.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\mode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/mode.cpp.obj"
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Z_DUMMY_TARGET.dir\src\mode.cpp.obj -c F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\mode.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/mode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/mode.cpp.i"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\mode.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\mode.cpp.i
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\mode.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\mode.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/mode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/mode.cpp.s"
-	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\src\mode.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\mode.cpp.s
+	C:\Users\Gabriele\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\src\mode.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\mode.cpp.s
 
 # Object files for target Z_DUMMY_TARGET
 Z_DUMMY_TARGET_OBJECTS = \
@@ -778,6 +791,7 @@ Z_DUMMY_TARGET_OBJECTS = \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GNotification.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWinList.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWindow.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/flags.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/checked_icon.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/clock_icon.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/empty_icon.cpp.obj" \
@@ -823,7 +837,7 @@ Z_DUMMY_TARGET_OBJECTS = \
 
 # External object files for target Z_DUMMY_TARGET
 Z_DUMMY_TARGET_EXTERNAL_OBJECTS = \
-"F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/ArduChronoSveglia/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.o"
+"F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.o"
 
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/Alarm/Alarm.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GButton.cpp.obj
@@ -836,6 +850,7 @@ Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GLabel.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GNotification.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWinList.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWindow.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/flags.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/checked_icon.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/clock_icon.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/empty_icon.cpp.obj
@@ -881,7 +896,7 @@ Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/mode.cpp.obj
 Z_DUMMY_TARGET: ../lib/LiquidCrystal_I2C/LiquidCrystal_I2C.o
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/build.make
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Linking CXX executable Z_DUMMY_TARGET"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Linking CXX executable Z_DUMMY_TARGET"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Z_DUMMY_TARGET.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -894,6 +909,6 @@ CMakeFiles/Z_DUMMY_TARGET.dir/clean:
 .PHONY : CMakeFiles/Z_DUMMY_TARGET.dir/clean
 
 CMakeFiles/Z_DUMMY_TARGET.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560 F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560 F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles\Z_DUMMY_TARGET.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560 F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560 F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles\Z_DUMMY_TARGET.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Z_DUMMY_TARGET.dir/depend
 

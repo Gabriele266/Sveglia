@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia
+CMAKE_SOURCE_DIR = F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560
+CMAKE_BINARY_DIR = F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560
 
 # Utility rule file for Debug.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Ardu
 include CMakeFiles/Debug.dir/progress.make
 
 CMakeFiles/Debug:
-	cd /d F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia && platformio -c clion run --target debug -emegaatmega2560
+	cd /d F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia && platformio -c clion run --target debug -emegaatmega2560
 
 Debug: CMakeFiles/Debug
 Debug: CMakeFiles/Debug.dir/build.make
@@ -90,6 +90,6 @@ CMakeFiles/Debug.dir/clean:
 .PHONY : CMakeFiles/Debug.dir/clean
 
 CMakeFiles/Debug.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560 F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560 F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\ArduChronoSveglia\cmake-build-megaatmega2560\CMakeFiles\Debug.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560 F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560 F:\SyncFiles\Informatica\Arduino\Progetti\SvegliaArduino\Sveglia\cmake-build-megaatmega2560\CMakeFiles\Debug.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Debug.dir/depend
 

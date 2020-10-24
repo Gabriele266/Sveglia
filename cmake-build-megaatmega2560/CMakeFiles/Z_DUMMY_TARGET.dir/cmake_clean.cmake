@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GNotification.cpp.obj"
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWinList.cpp.obj"
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/GWindow.cpp.obj"
+  "CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/flags.cpp.obj"
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/checked_icon.cpp.obj"
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/clock_icon.cpp.obj"
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduWin/icons/empty_icon.cpp.obj"

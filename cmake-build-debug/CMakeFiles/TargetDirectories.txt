@@ -1,0 +1,5 @@
+F:/SyncFiles/Informatica/Arduino/ArduChronoSveglia/cmake-build-debug/CMakeFiles/Production.dir
+F:/SyncFiles/Informatica/Arduino/ArduChronoSveglia/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/SyncFiles/Informatica/Arduino/ArduChronoSveglia/cmake-build-debug/CMakeFiles/Debug.dir
+F:/SyncFiles/Informatica/Arduino/ArduChronoSveglia/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir
+F:/SyncFiles/Informatica/Arduino/ArduChronoSveglia/cmake-build-debug/CMakeFiles/rebuild_cache.dir

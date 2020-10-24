@@ -1,0 +1,6 @@
+Button 		KEYWORD1
+
+isPressed	KEYWORD2
+attackPin	KEYWORD2
+getPin		KEYWORD2
+autoreport	KEYWORD2

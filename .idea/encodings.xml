@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/lib/ArduWin/GWinList.cpp" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/lib/ArduWin/GWinList.h" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/lib/TimeDate/TimeDate.cpp" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Serial/Handlers.cpp" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Time/init.cpp" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Utils/DisplayUtils.cpp" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Utils/ShieldUtils.cpp" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/CoreMain.cpp" charset="windows-1252" />
+  </component>
+</project>

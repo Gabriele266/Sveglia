@@ -1,0 +1,6 @@
+
+.pio/
+
+cmake-build-megaatmega2560/
+
+lib/

@@ -13,10 +13,9 @@
 // sorgente con la definizione degli oggetti per il progetto
 #include "Serial/Update.cpp"
 // Libreria per la gestione dei pulsanti hardware
-#include "F:\SyncFiles\Informatica\Arduino\libraries\Button\Button.h"
+#include <ArduWin.h>
 // Libreria per lo schermo e le interfaccie
 #include "../lib/LiquidCrystal_I2C/LiquidCrystal_I2C.h"
-#include "../lib/ArduWin/ArduWin.h"
 // Libreria per le sd
 #include "../lib/SD/src/SD.h"
 // Libreria per la comunicazione spi
@@ -92,22 +91,8 @@ static RTC_DS1307 rtc;
 static Alarm *alarm = new Alarm();
 /// funge da buffer per tutte le impostazioni di orario
 static TimeDate *time_buf = new TimeDate();
-// Rappresentazioni dei pulsanti
-/// Rappresenta il pulsante destro del keypad con un oggetto Button
-static Button right;
-/// Rappresenta il pulsante sinistro del keypad con un oggetto Button
-static Button left;
-/// Rappresenta il pulsante su del keypad con un oggetto Button
-static Button up;
-/// Rappresenta il pulsante giu del keypad con un oggetto Button
-static Button down;
-/// Rappresenta il pulsante select del keypad con un oggetto Button
-/// Serve per selezionare elementi della interfaccia e inviare segnali
-static Button select;
-/// Pulsante per modificare lo stato dell' allarme
-static Button alarm_in;        // Se l'allarme è su on lo mette su off altrimenti viceversa
-/// Pulsante per attivare o disattivare la luce grossa
-static Button lights_in;
+/// Rappresenta il keypad
+static GFisicalKeypad keypad;
 
 #pragma endregion Variables_and_Obj
 
@@ -213,7 +198,7 @@ static void core_manage_see_light_invert_status(GEvent *event){
 * \return   Non viene restituito alcun valore
 */
 
-static void core_manage_modify_hour(GEvent *event){
+/*static void core_manage_modify_hour(GEvent *event){
     SERIAL_SendMessage("Modifico parametro ore in finestra allarme. ");
     lcd.noBlink();
     // modalità focus: aggiorno solo il controllo, lo stato del potenziometro e lo stato del pulsante select.
@@ -249,7 +234,7 @@ static void core_manage_modify_hour(GEvent *event){
     }while(stay);
     SERIAL_SendMessage("Esco dal focus");
     lcd.blink();
-}
+}*/
 
 /**
 * \brief    Funzione core_manage_modify_minute. Gestisce l'impostazione del parametro minuti nella finestra alarmWin
@@ -259,7 +244,7 @@ static void core_manage_modify_hour(GEvent *event){
 * \param[event]     event     Contiene informazioni sull evento generato dal controllore
 * \return   Non viene restituito alcun valore
 */
-static void core_manage_modify_minute(GEvent *event){
+/*static void core_manage_modify_minute(GEvent *event){
     SERIAL_SendMessage("Modifico parametro ore in finestra allarme. ");
     lcd.noBlink();
     // modalità focus: aggiorno solo il controllo, lo stato del potenziometro e lo stato del pulsante select.
@@ -299,7 +284,7 @@ static void core_manage_modify_minute(GEvent *event){
     SERIAL_SendMessage("Esco dal focus");
     lcd.blink();
     //alarmWin->draw();
-}
+}*/
 
 /**
 *   \brief Funzione core_manage_alarm_invert_status. Gestisce l'inversione dello stato della sveglia.
@@ -487,7 +472,7 @@ void setup(){
     // Inizializzo l'rtc
     TIME_InitRtc(&rtc, info.enable_serial_debug);
     // Inizializzo il keypad
-    KEYPAD_InitKeypad(&right, &left, &up, &down, &select, &alarm_in, &lights_in, &pins);
+//    KEYPAD_InitKeypad(&right, &left, &up, &down, &select, &alarm_in, &lights_in, &pins);
     // Inizializzo il pin per il potenziometro
     pinMode(pins.potent_pin, INPUT);
     // Inizializzo una nuova finestra principale
@@ -497,7 +482,7 @@ void setup(){
     // Inizializzo la finestra per il tempo
     INTERFACE_InitTimesWin(&lcd, core_manage_alarm_invert_status);
     // Iizializzo la finestra allarme
-    INTERFACE_InitAlarmWin(&lcd, core_manage_modify_hour, core_manage_modify_minute, core_manage_alarm_save);
+//    INTERFACE_InitAlarmWin(&lcd, core_manage_modify_hour, core_manage_modify_minute, core_manage_alarm_save);
 #ifdef DEBUG_MODE
     // Scrivo la configurazione dei pin
     SERIAL_WritePinnout(&pins);

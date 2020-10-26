@@ -1,5 +1,0 @@
-F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/CMakeFiles/Production.dir
-F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/CMakeFiles/edit_cache.dir
-F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/CMakeFiles/Debug.dir
-F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/CMakeFiles/Z_DUMMY_TARGET.dir
-F:/SyncFiles/Informatica/Arduino/Progetti/SvegliaArduino/Sveglia/cmake-build-megaatmega2560/CMakeFiles/rebuild_cache.dir

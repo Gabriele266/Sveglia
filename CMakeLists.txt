@@ -13,6 +13,15 @@ set(CMAKE_CXX_COMPILER_WORKS 1)
 project("ArduChronoSveglia" C CXX)
 
 include(CMakeListsPrivate.txt)
+include_directories(F:/SyncFiles/Informatica/Arduino/libraries/ArduWin)
+include_directories(F:/SyncFiles/Informatica/Arduino/libraries/Alarm)
+include_directories(F:/SyncFiles/Informatica/Arduino/libraries/LiquidCrystal_I2C)
+include_directories(F:/SyncFiles/Informatica/Arduino/libraries/RTClib)
+include_directories(F:/SyncFiles/Informatica/Arduino/libraries/SimpleDHT)
+include_directories(F:/SyncFiles/Informatica/Arduino/libraries/TEA5767Radio)
+include_directories(F:/SyncFiles/Informatica/Arduino/libraries/TimeDate)
+include_directories(F:/SyncFiles/Informatica/Arduino/libraries/Tone)
+
 
 if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/CMakeListsUser.txt)
 include(CMakeListsUser.txt)

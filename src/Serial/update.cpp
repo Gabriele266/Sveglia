@@ -16,9 +16,9 @@
 #include "../Main/PinDefs.cpp"
 #include "../Main/output_register.h"
 #include <arduino.h>
-#include "../../lib/ArduWin/ArduWin.h"
-#include "../../lib/TimeDate/TimeDate.h"
-#include "../../lib/Alarm/Alarm.h"
+#include <ArduWin.h>
+#include <TimeDate.h>
+#include <Alarm.h>
 
 #define endl "\n"
 #define tab "\t"

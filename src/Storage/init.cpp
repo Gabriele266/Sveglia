@@ -12,7 +12,7 @@
 // Header di Arduino
 #include <Arduino.h>
 // Libreria per l'utilizzo delle schede sd
-#include "../../lib/SD/src/SD.h"
+#include <SD.h>
 // Sorgente con le modalità di esecuzione
 #include "../mode.cpp"
 // Libreria per la comunicazione spi
@@ -20,42 +20,41 @@
 // Libreria per il seriale
 #include "../Serial/update.cpp"
 // Header per gli errori
-#include "../../lib/ArduWin/ArduWin.h"
+#include <ArduWin.h>
 // Header per i pin
 #include "../Main/PinDefs.cpp"
 #include "../Utils/StringUtils.cpp"
 
 /// Effettua l'inizializzazione della scheda sd
-static bool STORAGE_InitSd(unsigned int cs_pin, bool log){
-    if(cs_pin < 60){
+static bool STORAGE_InitSd(unsigned int cs_pin){
         // Il pin esiste
-#ifdef DEBUG_MODE
+        #ifdef DEBUG_MODE
         SERIAL_SendMessage("Avvio inizializzazione scheda sd per storage avviato: " endl);
         SERIAL_SendMessage("Pin utilizzato per l'inizializzazione: ");
         SERIAL_SendMessage(cs_pin);
         SERIAL_ReturnToCarriage();
-#endif
+        #endif
         // Controllo l'avvio
         if(!SD.begin(cs_pin)){
-#ifdef DEBUG_MODE
+        #ifdef DEBUG_MODE
             // La scheda sd non si e' avviata
             SERIAL_SendMessage(F("Impossibile inizializzare la scheda sd per l'utilizzo. Controllare il cablaggio e che sia effettivamente inserita una scheda. " endl));
             SERIAL_SendMessage(F("Tutte le funzionalit� legate alla scheda sd verranno disabilitate. Attenzione: il dispositivo non funzionera' correttamente." endl));
-#endif
+        #endif
             return false;
         }
         else{
             SERIAL_SendMessage(F("Inizializzazione scheda sd avvenuta con successo. " endl));
             return true;
         }
-    }
+        return false;
 }
 
 /// Effettua la lettura dei pin dalla scheda sd e li salva
-static GError STORAGE_ReadPinConfig(project_pins *pins, File pinnouts_file, bool log){
-#ifdef DEBUG_MODE
+static GError STORAGE_ReadPinConfig(project_pins *pins, File pinnouts_file){
+    #ifdef DEBUG_MODE
     SERIAL_SendMessage(endl "Avvio ricerca pin su memoria sd." endl);
-#endif
+    #endif
     // Apro il file
         pinnouts_file = SD.open("PINS.TXT");
         // Controllo che sia aperto
@@ -80,7 +79,7 @@ static GError STORAGE_ReadPinConfig(project_pins *pins, File pinnouts_file, bool
             SERIAL_SendMessage("Nome" tab tab "Valore" tab tab tab "Riga" tab tab "Dimensione" tab tab "Divisione parametro" endl);
 #endif
             // Leggo il file
-            while(pinnouts_file.available()){
+            while(pinnouts_file.available() > 0){
                 // Leggo un nuovo carattere e lo aggiungo alla linea
                 curchar = (char) pinnouts_file.read();
 #ifdef DEBUG_MODE

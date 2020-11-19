@@ -16,7 +16,7 @@
 // Header per il seriale
 #include "../Serial/update.cpp"
 // Header per le interfaccie
-#include "../../lib/ArduWin/ArduWin.h"
+#include <ArduWin.h>
 
 // Gestisce la richiesta della versione da parte del seriale
 static void handleCoreVersionReq() {

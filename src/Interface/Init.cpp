@@ -15,9 +15,9 @@
 // Header di arduino
 #include <Arduino.h>
 // Header per le interfaccie grafiche
-#include "../../lib/ArduWin/ArduWin.h"
+#include <ArduWin.h>
 // Header per lo schermo
-#include "../../lib/LiquidCrystal_I2C/LiquidCrystal_I2C.h"
+#include <LiquidCrystal_I2C.h>
 // Header per il seriale
 #include "../Serial/update.cpp"
 
@@ -173,7 +173,7 @@ static void core_manage_show_lights_win(GEvent *event){
 * \param    [surface] surface contiene un puntatore allo schermo per poterlo assegnare ai vari controlli e permetterne il disegno.
 * \return   Nessun valore restituito
 */
-static void INTERFACE_InitMainWin(LiquidCrystal_I2C *surface){
+static void initMainWindow(LiquidCrystal_I2C *surface){
     // Inizializzo la finestrra principale
     // Imposto il pulsante indietro
     mainWin->setBackBtnPos(BackBtnPos::TopLeft);
@@ -219,92 +219,86 @@ static void INTERFACE_InitMainWin(LiquidCrystal_I2C *surface){
     setBtn->begin();
 
     // Aggiungo i controlli
-    mainWin->addControl(timeBtn);
-    mainWin->addControl(lightBtn);
-    mainWin->addControl(setBtn);
+    mainWin->add(timeBtn);
+    mainWin->add(lightBtn);
+    mainWin->add(setBtn);
 
     // Aggiungo la finestra main a windows
     windows->setMain(windows->add(mainWin));
 }
 
-/**
-* \brief    Funzione INTERFACE_InitLightWin, inizializza la finestra luci
-* \details  Crea tutti i controlli necessari, li formatta e li aggiunge alla finestra, inoltre
-*   utilizza i gestori passati come argomenti per gestire gli eventi.
-* Questa finestra offre le funzionalit� per gestire le luci della sveglia, variandone lo stato
-* \param    [surface] surface contiene un puntatore allo schermo per poterlo assegnare ai vari controlli e permetterne il disegno.
-* \param    [bigLight] bigLight contiene un puntatore a una funzione in grado di gestire la variazione di stato della luce grossa.
-* \param    [readLight] readLight contiene un puntatore a una funzione in grado di gestire la variazione di stato della luce da lettura
-* \param    [seeLight] seeLight contiene un puntatore a una funzione in grado di gestire la variazione di stato della luce da vista
-* \return   Nessun valore restituito
-*/
-static void INTERFACE_InitLightWin(LiquidCrystal_I2C *surf, void (*bigLight)(GEvent*), void (*readLight)(GEvent*), void (*seeLight)(GEvent*)){
+/// Inizializza la finestra tempo
+static void initLightWindow(LiquidCrystal_I2C *surf, void (*bigLight)(GEvent*), void (*readLight)(GEvent*), void (*seeLight)(GEvent*)){
     // Imposto la superficie
     lightsWin->setSurface(surf);
     // Imposto il pulsante indietro
     lightsWin->setBackBtnPos(BackBtnPos::TopLeft);
     lightsWin->setBackBtnType(BackBtnType::Medium);
     lightsWin->setShowBackBtn(true);
+    // Imposto il gestore per il pulsante indietro
+    lightsWin->setBackBtnHandle(core_manage_show_main_win);
     // Creo l'etichetta per lo stato della luce grossa
     bigLightState->setLocation(createLocation(3,1));
     // Imposto la superficie
     bigLightState->setSurface(surf);
-    bigLightState->setIcon(nullptr);
 
     // Aggiungo l'etichetta alla finestra
-    lightsWin->addControl(bigLightState);
+    lightsWin->add(bigLightState);
 
-    // Imposto il pulsante per impostarne, visualizzarne lo stato
-    setBigLight->setLocation(createLocation(14,1));
-    // Imposto il gestore
+    // Imposto la superficie
     setBigLight->setSurface(surf);
+    // Abilito il pulante
+    setBigLight->enable();
+    // Imposto la posizione
+    setBigLight->setLocation(createLocation(3,2));
+    // Imposto il gestore eventi
     setBigLight->setEventHandler(bigLight);
 
     // Aggiungo il pulsante
-    lightsWin->addControl(setBigLight);
-    lightsWin->setBackBtnHandle(core_manage_show_main_win);
+    lightsWin->add(setBigLight);
 
     // Inizializzo l' indicatore della luce da lettura:
     // Imposto la superficie
     readLightState->setSurface(surf);
     // Imposto la posizione
     readLightState->setLocation(createLocation(3, 2));
-    // Do icona nulla
-    readLightState->setIcon(nullptr);
 
     // Aggiungo alla finestra
-    lightsWin->addControl(readLightState);
+    lightsWin->add(readLightState);
 
-    // Inizializzo il pulsante per lo stato
+    // Inizializzo il pulsante per la luce da lettura
+    // Imposto la surface
     setReadLight->setSurface(surf);
+    // Imposto la posizione
     setReadLight->setLocation(createLocation(14, 2));
     // Imposto il gestore degli eventi
     setReadLight->setEventHandler(readLight);
 
-    lightsWin->addControl(setReadLight);
+    lightsWin->add(setReadLight);
 
     // Imposto l'etichetta della luce da vista
     seeLightState->setSurface(surf);
     seeLightState->setLocation(createLocation(3,3));
-    seeLightState->setIcon(nullptr);
 
     // Aggiungo il controllo
-    lightsWin->addControl(seeLightState);
+    lightsWin->add(seeLightState);
 
     // Imposto il pulsante per invertire lo stato della luce da vista
+    // Imposto la superficie
     setSeeLight->setSurface(surf);
+    // Imposto la posizione
     setSeeLight->setLocation(createLocation(14,3));
     // Imposto il gestore
     setSeeLight->setEventHandler(seeLight);
 
     // Aggiungo l'elemento
-    lightsWin->addControl(setSeeLight);
-    // Aggingo la finestra alla raccolta
+    lightsWin->add(setSeeLight);
+    //Aggingo la finestra alla raccolta
     windows->add(lightsWin);
 }
 
 /// Inizializza la finestra tempo
-static void INTERFACE_InitTimesWin(LiquidCrystal_I2C *surf, void (*alarmSet)(GEvent *event)){
+static void initTimesWindow(LiquidCrystal_I2C *surf, void (*alarmSet)(GEvent *event)){
     // Imposto la superficie
     timesWin->setSurface(surf);
     // Imposto il pulsante indietro
@@ -320,7 +314,7 @@ static void INTERFACE_InitTimesWin(LiquidCrystal_I2C *surf, void (*alarmSet)(GEv
     timeLabel->setIcon(nullptr);
 
     // Aggiungo l'icona alla finestra
-    timesWin->addControl(timeLabel);
+    timesWin->add(timeLabel);
 
     // Inizializzo l'etichetta per la data
     dateLabel->setSurface(surf);
@@ -328,14 +322,14 @@ static void INTERFACE_InitTimesWin(LiquidCrystal_I2C *surf, void (*alarmSet)(GEv
     dateLabel->setIcon(nullptr);
 
     // Aggiungo l'etichetta alla finestra
-    timesWin->addControl(dateLabel);
+    timesWin->add(dateLabel);
 
     // Inizializzo l'etcihetta per il giorno
     dayLabel->setSurface(surf);
     dayLabel->setLocation(createLocation(16,0));
     dayLabel->setIcon(nullptr);
 
-    timesWin->addControl(dayLabel);
+    timesWin->add(dayLabel);
 
     // Formatto l'indicatore dello stato dell' allarme
     alarmInd->setSurface(surf);
@@ -344,7 +338,7 @@ static void INTERFACE_InitTimesWin(LiquidCrystal_I2C *surf, void (*alarmSet)(GEv
     // Inizializzo l'etichetta
     alarmInd->begin();
     // Aggiungo il controllo
-    timesWin->addControl(alarmInd);
+    timesWin->add(alarmInd);
 
     // Formatto il pulsante per lo stato
     alarmState->setSurface(surf);
@@ -353,77 +347,14 @@ static void INTERFACE_InitTimesWin(LiquidCrystal_I2C *surf, void (*alarmSet)(GEv
     alarmState->setEventHandler(alarmSet);
     alarmState->enable();
     // Aggiungo
-    timesWin->addControl(alarmState);
+    timesWin->add(alarmState);
 
     // Aggiungo la finestra al raccoglitore
     windows->add(timesWin);
 }
 
 /// Inizializza la finestra per l'impostazione dell' allarme
-
-static void INTERFACE_InitAlarmWin(LiquidCrystal_I2C *surf, void (*hour)(GEvent *event), void (*minute)(GEvent *event), void (*saveFun)(GEvent *event)){
-    alarmWin->setSurface(surf);
-    // Imposto il gestore degli eventi per il pulsante indietro
-    alarmWin->setBackBtnPos(BackBtnPos::TopLeft);
-    alarmWin->setBackBtnType(BackBtnType::Medium);
-    alarmWin->setBackBtnHandle(core_manage_show_main_win);
-    alarmWin->setShowBackBtn(true);
-    // Aggiungo il primo controllo per l'impostazione delle ore
-    hourAlSet->setSurface(surf);
-    hourAlSet->setLocation(createLocation(12,1));
-    hourAlSet->setIcon(nullptr);
-    hourAlSet->setEventHandler(hour);
-
-    // Aggiungo il controllo alla finestra
-    alarmWin->addControl(hourAlSet);
-
-    // Formatto la label con i :
-    separator->setSurface(surf);
-    separator->setLocation(createLocation(14, 1));
-    separator->setIcon(nullptr);
-
-    // Aggiungo il separatore
-    alarmWin->addControl(separator);
-
-    // Formatto il parametro minuti
-    minuteAlSet->setSurface(surf);
-    minuteAlSet->setLocation(createLocation(15,1));
-    minuteAlSet->setIcon(nullptr);
-    minuteAlSet->setEventHandler(minute);
-
-    // Aggiungo alla finestra
-    alarmWin->addControl(minuteAlSet);
-
-    // Formatto il pulsante ok
-    okAlBtn->setSurface(surf);
-    // imposto il gestore
-    okAlBtn->setEventHandler(saveFun);
-    okAlBtn->setLocation(createLocation(13,3));
-    okAlBtn->setIcon(nullptr);
-
-    // Aggiungo alla finestra
-    alarmWin->addControl(okAlBtn);
-
-    // Inzializzo il box luce
-    lightBox->setSurface(surf);
-    lightBox->begin();
-    lightBox->check();
-    // Aggiungo il controllo alla finestra
-    alarmWin->addControl(lightBox);
-
-    // Imposto il box per la radio
-    radioBox->setSurface(surf);
-    radioBox->begin();
-    radioBox->check();
-    // formatto il pulsante per visuallizzare l allarme
-    alarmWin->addControl(radioBox);
-
-    settimanalBox->setSurface(surf);
-    settimanalBox->begin();
-
-    alarmWin->addControl(settimanalBox);
-
-    windows->add(alarmWin);
+static void initAlarmWindow(LiquidCrystal_I2C *surf, void (*hour_func)(GEvent *event), void (*minute_fun)(GEvent *event), void (*save_fun)(GEvent *event)){
 
 }
 

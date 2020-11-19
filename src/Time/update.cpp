@@ -10,9 +10,9 @@ Descrizione: Con funzioni per leggere e salvare una ora
 #include <Arduino.h>
 
 #include "../Utils/StringUtils.cpp"
-#include "../../lib/RTClib/RTClib.h"
-#include "../../lib/ArduWin/ArduWin.h"
-#include "../../lib/TimeDate/TimeDate.h"
+#include <RTClib.h>
+
+#include <TimeDate.h>
 
 static void TIME_ReadTime(TimeDate *res, RTC_DS1307 *rtc) {
 	// Prendo l'rtc e salvo l'ora attuale
@@ -26,10 +26,7 @@ static void TIME_ReadTime(TimeDate *res, RTC_DS1307 *rtc) {
 	res->setMonth(now.month());
 	res->setYear(now.year());
     res->setDayOfTheWeek(now.dayOfTheWeek());
-
 }
-
-
 
 #endif // TIME_CPP
 

@@ -12,13 +12,12 @@
 // Header di Arduino
 #include <Arduino.h>
 // Libreria per l'utilizzo delle schede sd
-#include "../../lib/SD/src/SD.h"
 // Libreria per la comunicazione spi
 #include <SPI.h>
 // Libreria per il seriale
 #include "../Serial/update.cpp"
 // Header per gli errori
-#include "../../lib/ArduWin/ArduWin.h"
+#include <ArduWin.h>
 // Header per i pin
 #include "../Main/PinDefs.cpp"
 

@@ -14,8 +14,9 @@
 #include "init.cpp"
 #include "update.cpp"
 #include <Arduino.h>
-#include "../../lib/ArduWin/ArduWin.h"
+#include <ArduWin.h>
 #include "../Time/update.cpp"
+#include <TimeDate.h>
 
 // Dato un messaggio in input lo controlla e esegue gli handler
 static void SERIAL_ControlMessage(char message[], GWinList *wins, TimeDate *time) {

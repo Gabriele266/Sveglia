@@ -5,7 +5,7 @@
 	Insieme di funzioni utili per il controllo dello schermo
 	Il seguente codice è aperto a modifiche
 */
-#include "../../lib/LiquidCrystal_I2C/LiquidCrystal_I2C.h"
+#include <LiquidCrystal_I2C.h>
 
 void UTILS_RemoveBackLight(LiquidCrystal_I2C *surf) {
 	surf->noBacklight();

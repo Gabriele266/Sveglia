@@ -21,7 +21,7 @@ include_directories(F:/SyncFiles/Informatica/Arduino/libraries/SimpleDHT)
 include_directories(F:/SyncFiles/Informatica/Arduino/libraries/TEA5767Radio)
 include_directories(F:/SyncFiles/Informatica/Arduino/libraries/TimeDate)
 include_directories(F:/SyncFiles/Informatica/Arduino/libraries/Tone)
-
+include_directories(F:/SyncFiles/Informatica/Arduino/libraries/SD)
 
 if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/CMakeListsUser.txt)
 include(CMakeListsUser.txt)

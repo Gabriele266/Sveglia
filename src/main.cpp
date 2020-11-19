@@ -6,7 +6,6 @@
 #ifndef CORE_MAIN_CPP
 #define CORE_MAIN_CPP
 
-
 // Inclusione header
 // Sorgente con le modalità di esecuzione
 #include "mode.cpp"
@@ -14,18 +13,16 @@
 #include "Serial/Update.cpp"
 // Libreria per la gestione dei pulsanti hardware
 #include <ArduWin.h>
-// Libreria per lo schermo e le interfaccie
-#include "../lib/LiquidCrystal_I2C/LiquidCrystal_I2C.h"
-// Libreria per le sd
-#include "../lib/SD/src/SD.h"
+#include <LiquidCrystal_I2C.h>
+#include <SD.h>
 // Libreria per la comunicazione spi
 #include <SPI.h>
 // Header di Arduino
 #include <Arduino.h>
 // Header per il tempo
-#include "../lib/TimeDate/TimeDate.h"
+#include <TimeDate.h>
 // Libreria RTC_DS1307
-#include "../lib/RTClib/RTClib.h"
+#include <RTClib.h>
 // sorgente con funzioni per inizializzare l'interfaccia e generare i suoi componenti
 #include "Interface/Init.cpp"
 // Sorgente conle funzioni per le luci
@@ -46,12 +43,8 @@
 #include "Utils/StringUtils.cpp"
 // Sorgente con le definizioni dei pin
 #include "main/PinDefs.cpp"
-// Header per il controllo del keypad
-#include "Keypad/update.cpp"
-// Header per inizializzare il keypad
-#include "Keypad/init.cpp"
 // Liberria per gli allarmi
-#include "../lib/Alarm/Alarm.h"
+#include <Alarm.h>
 
 /**
 * Contiene la versine del file coremain.cpp corrente
@@ -62,37 +55,37 @@
 // Variabili pubbliche per il core
 
 /// Definisce se accelogndere la luce all' avvio della sveglia
-static bool turn_light_on = true;
+bool turn_light_on = true;
 /// Funge da buffer per la formattazione dell' orario
-static char time_buffer[11] = "";
+char time_buffer[11] = "";
 /// Funge da buffer per la formattazione della data
-static char date_buffer[11] = "";
+  char date_buffer[11] = "";
 /// Raccoglie i pin del progetto e ne permette il passaggio a funzione
-static project_pins pins;
+  project_pins pins;
 /// Raccoglie le impostazioni relative al progetto e ne permette il passaggio a funzione
-static project_settings info;
+  project_settings info;
 /// Timer per l'aggiornamento deferenziato dei diversi oggetti nella interfaccia
-static int timer = 0;
+  int timer = 0;
 /// Buffer per il messaggio corrente inviato sul seriale
-static char cur_msg[20];
+  char cur_msg[20];
 /// Tempo della scheda
-static TimeDate time;
+  TimeDate time;
 
 /// File di impostazioni per la sveglia
-static File pinnouts_file;
+  File pinnouts_file;
 /// Definisce la posizione del cursore
-static location cursor_pos;
+  location cursor_pos;
 
 /// Inizializzo lo schermo lcd
-static LiquidCrystal_I2C lcd(0x27, 20, 4);
+  LiquidCrystal_I2C lcd(0x27, 20, 4);
 /// Rappresenta l'rtc
-static RTC_DS1307 rtc;
+  RTC_DS1307 rtc;
 /// Rappresenta l'allarme
-static Alarm *alarm = new Alarm();
+  Alarm *alarm = new Alarm();
 /// funge da buffer per tutte le impostazioni di orario
-static TimeDate *time_buf = new TimeDate();
+  TimeDate *time_buf = new TimeDate();
 /// Rappresenta il keypad
-static GFisicalKeypad keypad;
+  GFisicalKeypad keypad;
 
 #pragma endregion Variables_and_Obj
 
@@ -108,36 +101,36 @@ static GFisicalKeypad keypad;
 * \param[event]     event   Contiene un evento generato del gestore principale degli eventi della finestra.
 * \return  void     Nessun tipo restituito
 */
-static void core_manage_big_light_invert_status(GEvent *event){
+  void core_manage_big_light_invert_status(GEvent *event){
     // Luce ambientale
-    // Controllo se è già accesa
-    if(info.ambient_light_state == LED_ON){
-        // La luce è accesa
-        // La spengo
-        digitalWrite(pins.relay_pin, HIGH);
-        // Aggiorno l'indicatore dello stato
-        setBigLight->setText("|off|");
-        // Imposto che la luce è accesa
-        info.ambient_light_state = LED_OFF;
-        // Ridisegno la finestra
-        windows->drawCurrent();
-        // Esco forzatamente
-        return;
-
-    }
-    else{
-        // La luce è spenta
-        //  La accendo
-        digitalWrite(pins.relay_pin, LOW);
-//         Aggiorno l'indicatore dello stato
-        setBigLight->setText("|on|");
-        // Imposto che la luce è accesa
-        info.ambient_light_state = LED_ON;
-        // Ridisegno la finestra
-        windows->drawCurrent();
-        // Esco forzatamente
-        return;
-    }
+//    // Controllo se è già accesa
+//    if(info.ambient_light_state == LED_ON){
+//        // La luce è accesa
+//        // La spengo
+//        digitalWrite(pins.relay_pin, HIGH);
+//        // Aggiorno l'indicatore dello stato
+//        setBigLight->setText("|off|");
+//        // Imposto che la luce è accesa
+//        info.ambient_light_state = LED_OFF;
+//        // Ridisegno la finestra
+//        windows->drawCurrent();
+//        // Esco forzatamente
+//        return;
+//
+//    }
+//    else{
+//        // La luce è spenta
+//        //  La accendo
+//        digitalWrite(pins.relay_pin, LOW);
+////         Aggiorno l'indicatore dello stato
+//        setBigLight->setText("|on|");
+//        // Imposto che la luce è accesa
+//        info.ambient_light_state = LED_ON;
+//        // Ridisegno la finestra
+//        windows->drawCurrent();
+//        // Esco forzatamente
+//        return;
+//    }
 }
 
 /**
@@ -147,35 +140,35 @@ static void core_manage_big_light_invert_status(GEvent *event){
 * \param[event]     event   Contiene un evento generato del gestore principale degli eventi della finestra.
 * \return  void     Nessun tipo restituito
 */
-static void core_manage_read_light_invert_status(GEvent *event){
-    // Luce da lettura
-    // Controllo se è già accesa
-    if(info.read_light_state == LED_ON){
-//         La luce è accesa
-//         La spengo
-        digitalWrite(pins.reading_light_pin, LOW);
-//         Aggiorno l'indicatore dello stato
-        setReadLight->setText("|off|");
-        // Imposto che la luce è accesa
-        info.read_light_state = LED_OFF;
-        // Ridisegno la finestra
-        windows->drawCurrent();
-        // Esco forzatamente
-        return;
-    }
-    else{
-//         La luce è spenta
-//         La accendo
-        digitalWrite(pins.reading_light_pin, HIGH);
-//         Aggiorno l'indicatore dello stato
-        setReadLight->setText("|on|");
-        // Imposto che la luce è accesa
-        info.read_light_state = LED_ON;
-        // Ridisegno la finestra
-        windows->drawCurrent();
-        // Esco forzatamente
-        return;
-    }
+  void core_manage_read_light_invert_status(GEvent *event){
+//    // Luce da lettura
+//    // Controllo se è già accesa
+//    if(info.read_light_state == LED_ON){
+////         La luce è accesa
+////         La spengo
+//        digitalWrite(pins.reading_light_pin, LOW);
+////         Aggiorno l'indicatore dello stato
+//        setReadLight->setText("|off|");
+//        // Imposto che la luce è accesa
+//        info.read_light_state = LED_OFF;
+//        // Ridisegno la finestra
+//        windows->drawCurrent();
+//        // Esco forzatamente
+//        return;
+//    }
+//    else{
+////         La luce è spenta
+////         La accendo
+//        digitalWrite(pins.reading_light_pin, HIGH);
+////         Aggiorno l'indicatore dello stato
+//        setReadLight->setText("|on|");
+//        // Imposto che la luce è accesa
+//        info.read_light_state = LED_ON;
+//        // Ridisegno la finestra
+//        windows->drawCurrent();
+//        // Esco forzatamente
+//        return;
+//    }
 }
 
 /**
@@ -185,7 +178,7 @@ static void core_manage_read_light_invert_status(GEvent *event){
 * \param[event]     event   Contiene un evento generato del gestore principale degli eventi della finestra.
 * \return  void     Nessun tipo restituito
 */
-static void core_manage_see_light_invert_status(GEvent *event){
+  void core_manage_see_light_invert_status(GEvent *event){
 
 }
 
@@ -198,43 +191,43 @@ static void core_manage_see_light_invert_status(GEvent *event){
 * \return   Non viene restituito alcun valore
 */
 
-/*static void core_manage_modify_hour(GEvent *event){
-    SERIAL_SendMessage("Modifico parametro ore in finestra allarme. ");
-    lcd.noBlink();
-    // modalità focus: aggiorno solo il controllo, lo stato del potenziometro e lo stato del pulsante select.
-    // contiene il valore del potenziometro
-    int pot_val = 0;
-    // diventa false quando si preme una seconda volta il pulsante select
-    bool stay = true;
-    // contiene il valore calcolato in intero
-    int val;
-    // contiene il valore calcolato in stringa
-    char res[2];
-    // disegno la finestra
-    delay(1000);
-    //alarmWin->draw();
-    do{
-        SERIAL_ReturnToCarriage();
-        SERIAL_SendMessage("Giro di focus");
-        // aggiorno il valore del potenziometro
-        pot_val = analogRead(pins.potent_pin);
-        // calcolo il valore delle ore e lo salvo sul controllo
-        val = (pot_val * 23) / 1023;
-        itoa(val, res, 10);
-        SERIAL_SendMessage(res);
-        // imposto il testo del controllo e lo ridisegno
-        SERIAL_SendMessage("Aggiorno controllo con valore: ");
-        SERIAL_SendMessage(res);
-        SERIAL_ReturnToCarriage();
-        hourAlSet->setText(res);
-        alarmWin->redrawControl("hourAlSet", 1);
-        // aggiorno lo stato del pulsante select
-        stay = !select.isPressed();
-        delay(200);
-    }while(stay);
-    SERIAL_SendMessage("Esco dal focus");
-    lcd.blink();
-}*/
+void core_manage_modify_hour(GEvent *event){
+//    SERIAL_SendMessage("Modifico parametro ore in finestra allarme. ");
+//    lcd.noBlink();
+//    // modalità focus: aggiorno solo il controllo, lo stato del potenziometro e lo stato del pulsante select.
+//    // contiene il valore del potenziometro
+//    int pot_val = 0;
+//    // diventa false quando si preme una seconda volta il pulsante select
+//    bool stay = true;
+//    // contiene il valore calcolato in intero
+//    int val;
+//    // contiene il valore calcolato in stringa
+//    char res[2];
+//    // disegno la finestra
+//    delay(1000);
+//    //alarmWin->draw();
+//    do{
+//        SERIAL_ReturnToCarriage();
+//        SERIAL_SendMessage("Giro di focus");
+//        // aggiorno il valore del potenziometro
+//        pot_val = analogRead(pins.potent_pin);
+//        // calcolo il valore delle ore e lo salvo sul controllo
+//        val = (pot_val * 23) / 1023;
+//        itoa(val, res, 10);
+//        SERIAL_SendMessage(res);
+//        // imposto il testo del controllo e lo ridisegno
+//        SERIAL_SendMessage("Aggiorno controllo con valore: ");
+//        SERIAL_SendMessage(res);
+//        SERIAL_ReturnToCarriage();
+//        hourAlSet->setText(res);
+//        alarmWin->redrawControl("hourAlSet", 1);
+//        // aggiorno lo stato del pulsante select
+//        stay = !select.isPressed();
+//        delay(200);
+//    }while(stay);
+//    SERIAL_SendMessage("Esco dal focus");
+//    lcd.blink();
+}
 
 /**
 * \brief    Funzione core_manage_modify_minute. Gestisce l'impostazione del parametro minuti nella finestra alarmWin
@@ -244,47 +237,47 @@ static void core_manage_see_light_invert_status(GEvent *event){
 * \param[event]     event     Contiene informazioni sull evento generato dal controllore
 * \return   Non viene restituito alcun valore
 */
-/*static void core_manage_modify_minute(GEvent *event){
-    SERIAL_SendMessage("Modifico parametro ore in finestra allarme. ");
-    lcd.noBlink();
-    // modalità focus: aggiorno solo il controllo, lo stato del potenziometro e lo stato del pulsante select.
-    // contiene il valore del potenziometro
-    unsigned int pot_val = 0;
-    // diventa false quando si preme una seconda volta il pulsante select
-    bool stay = true;
-    // contiene il valore calcolato in intero
-    int val;
-    // contiene il valore calcolato in stringa
-    char res[2];
-    // disegno la finestra
-    delay(1000);
-    //alarmWin->draw();
-    do{
-        SERIAL_ReturnToCarriage();
-        SERIAL_SendMessage("Giro di focus");
-        // aggiorno il valore del potenziometro
-        pot_val = analogRead(pins.potent_pin);
-        // calcolo il valore delle ore e lo salvo sul controllo
-        val = (pot_val * 59)/1019;
-        intToArray(val, res);
-
-        SERIAL_SendMessage(res);
-        // imposto il testo del controllo e lo ridisegno
-        SERIAL_SendMessage("Aggiorno controllo con valore: ");
-        SERIAL_SendMessage(val);
-        SERIAL_SendMessage("Valore potenziometro: ");
-        SERIAL_SendMessage(analogRead(pins.potent_pin));
-        SERIAL_ReturnToCarriage();
-        minuteAlSet->setText(res);
-        minuteAlSet->draw();
-        // aggiorno lo stato del pulsante select
-        stay = !select.isPressed();
-        delay(200);
-    }while(stay);
-    SERIAL_SendMessage("Esco dal focus");
-    lcd.blink();
-    //alarmWin->draw();
-}*/
+void core_manage_modify_minute(GEvent *event){
+//    SERIAL_SendMessage("Modifico parametro ore in finestra allarme. ");
+//    lcd.noBlink();
+//    // modalità focus: aggiorno solo il controllo, lo stato del potenziometro e lo stato del pulsante select.
+//    // contiene il valore del potenziometro
+//    unsigned int pot_val = 0;
+//    // diventa false quando si preme una seconda volta il pulsante select
+//    bool stay = true;
+//    // contiene il valore calcolato in intero
+//    int val;
+//    // contiene il valore calcolato in stringa
+//    char res[2];
+//    // disegno la finestra
+//    delay(1000);
+//    //alarmWin->draw();
+//    do{
+//        SERIAL_ReturnToCarriage();
+//        SERIAL_SendMessage("Giro di focus");
+//        // aggiorno il valore del potenziometro
+//        pot_val = analogRead(pins.potent_pin);
+//        // calcolo il valore delle ore e lo salvo sul controllo
+//        val = (pot_val * 59)/1019;
+//        intToArray(val, res);
+//
+//        SERIAL_SendMessage(res);
+//        // imposto il testo del controllo e lo ridisegno
+//        SERIAL_SendMessage("Aggiorno controllo con valore: ");
+//        SERIAL_SendMessage(val);
+//        SERIAL_SendMessage("Valore potenziometro: ");
+//        SERIAL_SendMessage(analogRead(pins.potent_pin));
+//        SERIAL_ReturnToCarriage();
+//        minuteAlSet->setText(res);
+//        minuteAlSet->draw();
+//        // aggiorno lo stato del pulsante select
+//        stay = !select.isPressed();
+//        delay(200);
+//    }while(stay);
+//    SERIAL_SendMessage("Esco dal focus");
+//    lcd.blink();
+//    //alarmWin->draw();
+}
 
 /**
 *   \brief Funzione core_manage_alarm_invert_status. Gestisce l'inversione dello stato della sveglia.
@@ -293,7 +286,7 @@ static void core_manage_see_light_invert_status(GEvent *event){
 *   \param[event]   event   Contiene informazioni sull evento generato dal gestore
 *   \return     Nessun valore restituito
 */
-static void core_manage_alarm_invert_status(GEvent *event){
+  void core_manage_alarm_invert_status(GEvent *event){
     // Controllo se l'allarme ha un orario
     if(alarm != nullptr){
         // Se l'utente ha impostato un allarme
@@ -321,10 +314,11 @@ static void core_manage_alarm_invert_status(GEvent *event){
             // Mostro la finestra per l'impostazione di un allarme
             SERIAL_ReturnToCarriage();
             SERIAL_SendMessage("Attenzione: nessun allarme impostato, avvio finestra impostazione");
-            // Disegno la finestra
-            windows->draw("alarmWin");
+
             SERIAL_ReturnToCarriage();
 #endif
+            // Disegno la finestra
+            windows->draw("alarmWin");
         }
     }
 }
@@ -334,7 +328,7 @@ static void core_manage_alarm_invert_status(GEvent *event){
  *  accende o no la luce e produce un suono.
  * \return  Non restituisce valori
  */
-static void core_manage_alarm_on(){
+  void core_manage_alarm_on(){
 #ifdef DEBUG_MODE
     // do informazioni di debug
     SERIAL_SendMessage("Raggiunto orario: ");
@@ -352,144 +346,110 @@ static void core_manage_alarm_on(){
     }
 }
 
-/**
-*   \brief  Funzione core_manage_alarm_save, gestisce il salvataggio delle informazioni della sveglia.
-*   \details    Viene chiamata dalla pressione del pulsante Vai nella finestra alarmWin.
-*   Inizialmente converte i valori stringa dei pulsanti per le ore e i minuti in numeri salvabili nell' oggetto Alarm globale alarm.
-*   \note   Gli 00 vengono convertiti in 0
-*   Successivamente, dopo aver salvato nell' oggetto i valori convertiti, salva le impostazioni espresse dalle checkbox nella parte
-*   sinistra della finestra.
-*   Infine mostra una GNotification per informare l'utente e abilita la sveglia
-*   \param [e] e Contiene le informazioni dell' evento
-*   \return nessun valore restituito
-*/
 void core_manage_alarm_save(GEvent *e){
-    // contiene l'orario impostato dai controlli nella finestra alarmWin
-    char *hour = hourAlSet->getText();
-    char *minu = minuteAlSet->getText();
-    // controllo gli spazi e correggo le ore
-    if(hour[1] == ' '){
-        // il numero ha 1 sola cifra
-        // tolgo lo spazio
-        hour[1] = '\0';
-    }
-    else if(strcmp(hour, "00") == 0){
-        strcpy(hour, "0");
-    }
-
-    if(minu[1] == ' '){
-        // il numero ha 1 sola cifra
-        // tolgo lo spazio
-        minu[1] = '\0';
-    }
-    else if(strcmp(minu, "00") == 0){
-        strcpy(minu, "0");
-    }
-#ifdef DEBUG_MODE
-    SERIAL_ReturnToCarriage();
-    SERIAL_SendMessage("Salvataggio allarme. Informazioni: " endl);
-    SERIAL_SendMessage("Divisione caratteri ore: ");
-    strsplit(hour);
-    SERIAL_ReturnToCarriage();
-    SERIAL_SendMessage("Divisione caratteri minuti: ");
-    strsplit(minu);
-    SERIAL_ReturnToCarriage();
-    SERIAL_SendMessage("Allarme settimanale: ");
-    SERIAL_SendMessage(settimanalBox->isChecked());
-    SERIAL_ReturnToCarriage();
-    SERIAL_SendMessage("Richiede accensione radio: ");
-    SERIAL_SendMessage(radioBox->isChecked());
-    SERIAL_SendMessage("Accensione luce: ");
-    SERIAL_SendMessage(lightBox->isChecked());
-    SERIAL_ReturnToCarriage();
-#endif
-
-    // salvo le ore
-    alarm->setStartHour(atoi(hour));
-    // salvo i minuti
-    alarm->setStartMinute(atoi(minu));
-
-    alarm->enable();
-
-    // salvo informazioni aggiuntive
-    alarm->setSelective(settimanalBox->isChecked());
-    alarm->setRadio(radioBox->isChecked());
-    alarm->setLight(lightBox->isChecked());
-    alarm->setHandler(core_manage_alarm_on);
-    // esco dalla finestra
-    // mostro la home
-    windows->draw("mainWin");
-    // scrivo la sveglia sul seriale
-    //SERIAL_SendMessage(&alarm);
+//    // contiene l'orario impostato dai controlli nella finestra alarmWin
+//    char *hour = hourAlSet->getText();
+//    char *minu = minuteAlSet->getText();
+//    // controllo gli spazi e correggo le ore
+//    if(hour[1] == ' '){
+//        // il numero ha 1 sola cifra
+//        // tolgo lo spazio
+//        hour[1] = '\0';
+//    }
+//    else if(strcmp(hour, "00") == 0){
+//        strcpy(hour, "0");
+//    }
+//
+//    if(minu[1] == ' '){
+//        // il numero ha 1 sola cifra
+//        // tolgo lo spazio
+//        minu[1] = '\0';
+//    }
+//    else if(strcmp(minu, "00") == 0){
+//        strcpy(minu, "0");
+//    }
+//#ifdef DEBUG_MODE
+//    SERIAL_ReturnToCarriage();
+//    SERIAL_SendMessage("Salvataggio allarme. Informazioni: " endl);
+//    SERIAL_SendMessage("Divisione caratteri ore: ");
+//    strsplit(hour);
+//    SERIAL_ReturnToCarriage();
+//    SERIAL_SendMessage("Divisione caratteri minuti: ");
+//    strsplit(minu);
+//    SERIAL_ReturnToCarriage();
+//    SERIAL_SendMessage("Allarme settimanale: ");
+//    SERIAL_SendMessage(settimanalBox->isChecked());
+//    SERIAL_ReturnToCarriage();
+//    SERIAL_SendMessage("Richiede accensione radio: ");
+//    SERIAL_SendMessage(radioBox->isChecked());
+//    SERIAL_SendMessage("Accensione luce: ");
+//    SERIAL_SendMessage(lightBox->isChecked());
+//    SERIAL_ReturnToCarriage();
+//#endif
+//
+//    // salvo le ore
+//    alarm->setStartHour(atoi(hour));
+//    // salvo i minuti
+//    alarm->setStartMinute(atoi(minu));
+//
+//    alarm->enable();
+//
+//    // salvo informazioni aggiuntive
+//    alarm->setSelective(settimanalBox->isChecked());
+//    alarm->setRadio(radioBox->isChecked());
+//    alarm->setLight(lightBox->isChecked());
+//    alarm->setHandler(core_manage_alarm_on);
+//    // esco dalla finestra
+//    // mostro la home
+//    windows->draw("mainWin");
+//    // scrivo la sveglia sul seriale
+//    //SERIAL_SendMessage(&alarm);
 }
 
-/**
-*   \brief  Funzione core_setup funge da funzione per l'inizializzazione di tutti i componenti della sveglia.
-*   \details    Inizializza tutto. Viene chiamata dallo sketch arduino Core.ino all' interno del setup.
-*   Inizializza la scheda sd per poter leggere le impostazioni e la configurazione del pinnout del progetto. (chiamata STORAGE_InitSd(pins.sd_cs_pin, info.enable_serial_debug))
-*   Legge la configurazione dei pin dal file PINS.TXT e inizializza tutte le luci (grossa, vista e lettura).
-*   Inizializza lo schermo per poterlo utilizzarlo come interfaccia.
-*   Inizializza l' rtc e tutte le finestre, tramite la chiamata delle funzioni del modulo Interface/init.cpp
-*   Mostra all' utente sul seriale la configurazione dei pin letta dal file
-*   Infine disegna la finestra principale.
-*   \note La funzione è statica
-*   \return Nessun valore restituito
-*/
-void setup(){
-    // Saluto il mondo
-    Serial.begin(57600);
-    SERIAL_SendMessage("Core avviato. Eseguo core_setup" endl, info.enable_serial_debug);
-    // Inizializzo la sd
-    info.sd_success = STORAGE_InitSd(pins.sd_cs_pin, info.enable_serial_debug);
-#ifdef DEBUG_MODE
-    SERIAL_SendMessage("Risultato inizializzazione sd: ");
-    SERIAL_SendMessage(info.sd_success);
-    SERIAL_ReturnToCarriage();
-#endif
-    // Controllo se l'inizializzazione della sd ha avuto successo
-    if(info.sd_success){
-        // Leggo la configurazione dei pin
-        //STORAGE_ReadPinConfig(&pins, pinnouts_file, info.enable_serial_debug);
-    }
-    // Inizializzo la luce grossa
-    LIGHTS_InitBigLight(pins.relay_pin, info.enable_serial_debug);
-    // Inizializzo la luce da lettura
-    LIGHTS_InitReadingLight(pins.reading_light_pin, info.enable_serial_debug);
-    // Inizializzo la luce da vista
-    LIGHTS_InitSeeLight(pins.see_light_pin, info.enable_serial_debug);
 
-    // Faccio il bench della luce grossa
-    //LIGHTS_BenchBigLight(pins.big_light_pin, enable_serial_debug);
-    //listInfos(sd_cs_pin);
-    // Inizializzo lo schermo lcd
+void setup(){
+#ifdef DEBUG_MODE
+    // Inizializzo il seriale
+    Serial.begin(115200);
+    // Mostro un hello word
+    Serial.println(F("Avvio sveglia. "));
+#endif
+    // Inizializzo lo schermo
     lcd.init();
-    // Attivo la backlight
+    // Accendo la retroilluminazione
     lcd.backlight();
-    // Invio il log
-#ifdef DEBUG_MODE
-    SERIAL_SendMessage("Inizializzazione schermo effettuata. " endl);
-#endif
-    // Inizializzo l'rtc
-    TIME_InitRtc(&rtc, info.enable_serial_debug);
+    // Avvio il blink del cursore
+    lcd.blink();
+    // Inizializzo rtc
+    initRtc(&rtc);
+    // Inizializzo la luce grossa
+    initBigLight(pins.relay_pin);
+    // Inizializzo la luce da vista
+    initSeeLight(pins.see_light_pin);
+    // Inizializzo la luce da lettura
+    initReadLight(pins.reading_light_pin);
     // Inizializzo il keypad
-//    KEYPAD_InitKeypad(&right, &left, &up, &down, &select, &alarm_in, &lights_in, &pins);
-    // Inizializzo il pin per il potenziometro
-    pinMode(pins.potent_pin, INPUT);
-    // Inizializzo una nuova finestra principale
-    INTERFACE_InitMainWin(&lcd);
-    // Inizializzo la finestra per le luci
-    INTERFACE_InitLightWin(&lcd, core_manage_big_light_invert_status, core_manage_read_light_invert_status, core_manage_see_light_invert_status);
-    // Inizializzo la finestra per il tempo
-    INTERFACE_InitTimesWin(&lcd, core_manage_alarm_invert_status);
-    // Iizializzo la finestra allarme
-//    INTERFACE_InitAlarmWin(&lcd, core_manage_modify_hour, core_manage_modify_minute, core_manage_alarm_save);
+    keypad.setLeftBtnPin(pins.left_btn_pin);
+    keypad.setRightBtnPin(pins.right_btn_pin);
+    keypad.setUpBtnPin(pins.up_btn_pin);
+    keypad.setDownBtnPin(pins.down_btn_pin);
+    keypad.setSelectBtnPin(pins.select_btn_pin);
+    // Imposto il gestore finestre
+    keypad.attachWinList(windows);
+    // Avvio il tutto
+    keypad.beginAll();
 #ifdef DEBUG_MODE
-    // Scrivo la configurazione dei pin
-    SERIAL_WritePinnout(&pins);
-    // Indico che ho finito l'inizializzazione della scheda
-    SERIAL_SendMessage("Inizializzazione sveglia terminata. " endl);
+    keypad.writeReference();
 #endif
-    // Disegno la finestra principale
+    // Inizializzo la finestra principale
+    initMainWindow(&lcd);
+    // Inizializzo la finestra per il tempo
+    initTimesWindow(&lcd, core_manage_alarm_invert_status);
+    // Inizializzo la finestra per le luci
+    initLightWindow(&lcd, core_manage_big_light_invert_status, core_manage_read_light_invert_status, core_manage_see_light_invert_status );
+    // Inizializzo la finestra per l'allarme
+//    initAlarmWindow(&lcd, core_manage_modify_hour, core_manage_modify_minute, core_manage_alarm_save);
+//    // Disegno la finestra principale
     windows->drawMain();
 }
 
@@ -503,96 +463,16 @@ void setup(){
 *   \return  Nessun valore restituito
 */
 void loop(){
-    if(timer == 7000){
 #ifdef DEBUG_MODE
-        SERIAL_SendMessage("Passati 2 secondi dall' ultimo aggiornamento finestre. " endl);
-#endif
-        // Ridisegno la finestra tempo, se ci sono
-        if(windows->isCurrent("timesWin")){
-            SERIAL_SendMessage("Siamo nella finestra tempo");
-            // Leggo il tempo e lo invio
-            TIME_ReadTime(&time, &rtc);
-            // Salvo il tempo in una stringa
-            time.getFormTime(time_buffer);
-            time.getFormDate(date_buffer);
-#ifdef DEBUG_MODE
-            SERIAL_SendMessage( endl "Stringa data: ");
-            SERIAL_SendMessage(time_buffer);
-            SERIAL_ReturnToCarriage();
-            SERIAL_SendMessage(date_buffer);
-#endif
-            // Aggiorno l'indicatore del tempo
-            timeLabel->setText(time_buffer);
-            dateLabel->setText(date_buffer);
-            dayLabel->setText(time.getDayOfTheWeek());
-#ifdef DEBUG_MODE
-            SERIAL_SendMessage("Nome giorno corrente: ");
-            SERIAL_SendMessage(time.getDayOfTheWeek());
-#endif
-            // Ridisegno i controlli
-            timesWin->redrawControl("timeLabel", 5);
-            timesWin->redrawControl("dateLabel", 8);
-            timesWin->redrawControl("dayLabel", 3);
-
-            // Aggiorno l'indicatore dello stato dell' allarme
-            if(alarm->getState() == false){
-                // Metto la stringa su off
-                alarmState->setText("|off|");
-            }
-            else{
-                alarmState->setText("|on|");
-            }
-           // Ridisegno il controllo
-            timesWin->redrawControl("alarmState", 5);
-        }
-        timer = 0;
-    }
-    else if(timer == 2000){
-        // mostro informazioni di debug
-#ifdef DEBUG_MODE
-        SERIAL_ReturnToCarriage();
-        // mostro il nome della finestra main
-        SERIAL_SendMessage("Nome finestra principale: ");
-        SERIAL_SendMessage(windows->get("mainWin")->getName());
-        SERIAL_ReturnToCarriage();
-        // mostro il nome della finestra timesWin
-        SERIAL_SendMessage("Nome finestra timesWin: ");
-        SERIAL_SendMessage(windows->get("timesWin")->getName());
-        SERIAL_ReturnToCarriage();
-        
-        SERIAL_SendMessage("Loop" endl);
-        timer += 100;
-#endif
-    }
-    else{
-        // Incremento il timer
-        timer += 100;
-    }
-    // Aggiorno l'input
-    //SERIAL_UpdateInput(cur_msg);
-//    if(strlen(cur_msg) > 0){
-//        SERIAL_SendMessage(cur_msg);
-//        SERIAL_ControlMessage(cur_msg, windows, &time);
-//        SERIAL_ReturnToCarriage();
-//    }
-//    // controllo la sveglia
-    //alarm.updateAlarm(&time);
-    // Pulisco la stringa seriale
-    //strcls(cur_msg, 20);
-    // Normalizzo la posizione del cursore
-    normalize(&cursor);
-    lcd.blink();
-    // Imposto la posizione allo schermo
-    lcd.setCursor(cursor.x, cursor.y);
-//    // Aggiorno i pulsanti
-    KEYPAD_CheckButtonsPressed(&cursor, windows->get(windows->getCurrent()), &right, &left, &up, &down, &select, &alarm_in, &lights_in, info.enable_serial_debug);
-#ifdef DEBUG_MOD
-    SERIAL_SendMessage("Valore potenziometro: ");
-    SERIAL_SendMessage(analogRead(pins.potent_pin));
-    SERIAL_ReturnToCarriage();
+    Serial.println("Loop");
+    // Scrivo lo stato del keypad
+    keypad.writeState();
 #endif
     delay(100);
-
+    // Aggiorno il keypad
+    keypad.update();
+    // Posiziono il cursore
+    windows->locateCursor(&lcd);
 }
 
 #endif // CORE_MAIN_CPP

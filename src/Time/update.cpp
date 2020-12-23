@@ -11,10 +11,10 @@ Descrizione: Con funzioni per leggere e salvare una ora
 
 #include "../Utils/StringUtils.cpp"
 #include <RTClib.h>
-
 #include <TimeDate.h>
 
-static void TIME_ReadTime(TimeDate *res, RTC_DS1307 *rtc) {
+/// Legge l'ora corrente dall' rtc e la converte in una instanza di timedate
+static void readTime(TimeDate *res, RTC_DS1307 *rtc) {
 	// Prendo l'rtc e salvo l'ora attuale
 	DateTime now = rtc->now();
 	// Uso la funzione integrata
@@ -29,6 +29,3 @@ static void TIME_ReadTime(TimeDate *res, RTC_DS1307 *rtc) {
 }
 
 #endif // TIME_CPP
-
-
-

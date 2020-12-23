@@ -9,92 +9,96 @@
 #ifndef INTERF_START
 #define INTERF_START
 
-// Header pubblici
-// Header della interfaccia
-#include "Interface.cpp"
 // Header di arduino
 #include <Arduino.h>
 // Header per le interfaccie grafiche
 #include <ArduWin.h>
 // Header per lo schermo
 #include <LiquidCrystal_I2C.h>
-// Header per il seriale
-#include "../Serial/update.cpp"
+// Header per le icone di stato
+#include "../../files/state_icons.h"
+#include <avr/pgmspace.h>
 
 /// Raccoglitore delle finestre per il progetto
-static GWinList *windows = new GWinList("windows");
+static GWinList windows;
 
 /// Finestra principale
-static GWindow *mainWin = new GWindow("mainWin", "Principale");
+static GWindow mainWin("mainWin", "Principale");
 /// Finestra delle luci
-static GWindow *lightsWin = new GWindow("lightsWin", "Luci");
+static GWindow lightsWin("lightsWin", "Luci");
 /// FInestra del tempo
-static GWindow *timesWin = new GWindow("timesWin", "Orario");
+static GWindow timesWin("timesWin", "Orario");
 /// Finestra per ipostare il tempo
-static GWindow *alarmWin = new GWindow("alarmWin", "Sveglia");
+static GWindow alarmWin("alarmWin", "Sveglia");
 
 /// Pulsante per visualizzare la finestra tempo
-static GButton *timeBtn = new GButton("timeBtn", "Tm");
+static GButton timeBtn("Tm");
 /// Pulsante per la finestra lights
-static GButton *lightBtn = new GButton("lightBtn", "Lg");
+static GButton lightBtn("Lg");
 /// Pulsante con le impostazioni
-static GButton *setBtn = new GButton("setBtn", "St");
+static GButton setBtn("St");
 
-/// Etichetta stato luci grossa
-static GLabel *bigLightState = new GLabel("bglightState", "Ambiente: ");
+/// Etichetta per lo stato della scheda sd
+static GLabel sdState("");
+/// Etichetta per lo stato dell' rtc
+static GLabel rtcState("");
+/// Etichetta per lo stato dell' allarme
+static GLabel alrmState("");
+/// Icona per la sd
+static GIcon sdIcon("sdIcon", sd_ok_icon, 4);
+/// Icona per l' rtc
+static GIcon rtcIcon("rtcIcon", clock_ok_icon, 5);
+/// Icona per la sveglia
+static GIcon alarmIcon("alarmIcon", alarm_active_icon, 6);
+
 /// Etichetta stato luce lettura
-static GLabel *readLightState = new GLabel("readLightState", "Lettura: ");
+static GLabel readLightState("Lettura: ");
 /// Etichetta stato della luce da vista
-static GLabel *seeLightState = new GLabel("seeLightState", "Vista: ");
+static GLabel seeLightState("Vista: ");
 
-
-/// Pulsante per impostare lo stato della luce grossa
-static GButton *setBigLight = new GButton("setbgState", "|off|");
 /// Pulsante per impostare lo stato della luce da lettura
-static GButton *setReadLight = new GButton("setReadLight", "|off|");
+static GButton setReadLight("|off|");
 /// Pulsante per impostare lo stato della luce da vista
-static GButton *setSeeLight = new GButton("setSeeLight", "|off|");
+static GButton setSeeLight("|off|");
 
 /// Etichetta che visualizza l'ora
-static GLabel *timeLabel = new GLabel("timeLabel", "00:00");
+static GLabel timeLabel("0");
 /// Etichetta che visualizza la data
-static GLabel *dateLabel = new GLabel("dateLabel", "00/00/00");
+static GLabel dateLabel("0");
 /// Etichetta che mostra il nome del giorno
-static GLabel *dayLabel = new GLabel("dayLabel", "Non");
+static GLabel dayLabel("Non");
 
 /// Box per indicare se accendere la luce alla sveglia o no
-static GCheckBox *lightBox = new GCheckBox("lightBox", "Luce", createLocation(1,2));
+static GCheckBox lightBox("Luce", createLocation(1,2));
 /// Box per indicare se avviare la radio alla sveglia o usare un file di musica
-static GCheckBox *radioBox = new GCheckBox("radioBox", "Radio", createLocation(1, 3));
+static GCheckBox radioBox("Radio", createLocation(1, 3));
 /// Box per indicare se la sveglia sar� settimanale o scolastica
-static GCheckBox *settimanalBox = new GCheckBox("settimanalBox", "Sett", createLocation(1, 1));
+static GCheckBox settimanalBox("Sett", createLocation(1, 1));
 
 /// Etichetta che mostra lo stato dell' allarme
-static GLabel *alarmInd = new GLabel("alarmInd", "Sveglia: ");
+static GLabel alarmInd("Sveglia: ");
 /// Pulsante per impostare lo stato dell' allarme
-static GButton *alarmState = new GButton("alarmState", "|off|");
+static GButton alarmState("|off|");
 
 /// Pulsante per impostare le ore
-static GButton *hourAlSet = new GButton("hourAlSet", "00");
+static GButton hourAlSet( "0");
 /// Pulsante per impostare i minuti
-static GButton *minuteAlSet = new GButton("minuteAlSet", "00");
+static GButton minuteAlSet( "0");
 /// Etichetta per fare il separatore
-static GLabel *separator = new GLabel("separator", ":");
+static GLabel separator(":");
 /// Pulsante per impostare l'allarme
-static GButton *okAlBtn = new GButton("okAlBtn", "|Vai|");
+static GButton okAlBtn ("|Vai|");
+/// Etichetta Attivo
+static GLabel activeLabel("Alle:");
 /// Pulsante per visualizzare le informazioni dell' allarme
-static GButton *showAlarm = new GButton("showAlarm", "|Visual|");
-/// Posizione del cursore
-static location cursor = createLocation();
-/// notifica dopo l'impostazione della sveglia
-static GNotification *notify = new GNotification();
+static GButton alarmInfo( "|Info|");
 
 /// Icona a forma di orologio
-static GIcon *icn = new GIcon();
+static GIcon icn;
 /// Icona a forma di luce
-static GIcon *light = new GIcon();
+static GIcon light;
 /// Icona delle impostazioni
-static GIcon *settings = new GIcon();
+static GIcon settings;
 
 /// Icona a forma di ingranaggio
 static byte settings_icon[8]{
@@ -124,13 +128,13 @@ static byte light_icon[8]{
 // Handlers per l'interfaccia
 #pragma regioname Handlers
 /**
-* \brief    Funzione core_manage_show_time_win, gestisce la visualizzazione della finestra tempo.
+ \brief    Funzione core_manage_show_time_win, gestisce la visualizzazione della finestra tempo.
 * \details  Viene chiamata dal controllore generale di mainWin oppure dai comandi seriali
 * \param [event] event contiene le informazioni legate all' evento
 */
 static void core_manage_show_time_win(GEvent *event){
-    SERIAL_SendMessage("Mostro finestra time");
-    windows->draw("timesWin");
+    windows.draw("timesWin");
+    delete event;
 }
 
 /**
@@ -139,16 +143,8 @@ static void core_manage_show_time_win(GEvent *event){
 * \param [event] event contiene le informazioni legate all' evento
 */
 static void core_manage_show_main_win(GEvent *event){
-    windows->drawMain();
-}
-
-/**
-* \brief    Funzione core_manage_show_settings_win, gestisce la visualizzazione della finestra impostazioni.
-* \details  Viene chiamata dal controllore generale di mainWin oppure dai comandi seriali
-* \param [event] event contiene le informazioni legate all' evento
-*/
-static void core_manage_show_settings_win(GEvent *event){
-    //SERIAL_SendEventInfo(event);
+    windows.drawMain();
+    delete event;
 }
 
 /**
@@ -157,10 +153,8 @@ static void core_manage_show_settings_win(GEvent *event){
 * \param [event] event contiene le informazioni legate all' evento
 */
 static void core_manage_show_lights_win(GEvent *event){
-    SERIAL_ReturnToCarriage();
-    SERIAL_SendMessage("Premuto pulsante tempo");
-    SERIAL_ReturnToCarriage();
-    windows->draw("lightsWin");
+    windows.draw("lightsWin");
+    delete event;
 }
 
 #pragma endregion
@@ -175,187 +169,242 @@ static void core_manage_show_lights_win(GEvent *event){
 */
 static void initMainWindow(LiquidCrystal_I2C *surface){
     // Inizializzo la finestrra principale
-    // Imposto il pulsante indietro
-    mainWin->setBackBtnPos(BackBtnPos::TopLeft);
-    mainWin->setBackBtnType(BackBtnType::Medium);
     // Imposto la superficie
-    mainWin->setSurface(surface);
+    mainWin.setSurface(surface);
     // disAttivo la visualizzazione del pulsante indietro
-    mainWin->setShowBackBtn(false);
+    mainWin.setShowBackBtn(false);
     // Creo una icona e un pulsante
+    icn.setCode(clock_icon);
+    icn.setIndex(0);
+    timeBtn.setSurface(surface);
+    timeBtn.setIcon(&icn);
+    timeBtn.enable();
 
-    icn->setCode(clock_icon);
-    icn->setIndex(0);
-    timeBtn->setSurface(surface);
-    timeBtn->setIcon(icn);
-    timeBtn->enable();
-
-    timeBtn->setLocation(createLocation(2,2));
-    timeBtn->setEventHandler(core_manage_show_time_win);
-    timeBtn->begin();
+    timeBtn.setLocation(createLocation(2,2));
+    timeBtn.setEventHandler(core_manage_show_time_win);
+    timeBtn.begin();
 
     // Imposto la posizione
-    lightBtn->setLocation(createLocation(7,2));
-    lightBtn->setSurface(surface);
+    lightBtn.setLocation(createLocation(7,2));
+    lightBtn.setSurface(surface);
     // Creo una icona
-    light->setCode(light_icon);
-    light->setIndex(1);
+    light.setCode(light_icon);
+    light.setIndex(1);
     // Aggiungo l'icona
-    lightBtn->setIcon(light);
-    lightBtn->enable();
-    lightBtn->setEventHandler(core_manage_show_lights_win);
-    lightBtn->begin();
+    lightBtn.setIcon(&light);
+    lightBtn.enable();
+    lightBtn.setEventHandler(core_manage_show_lights_win);
+    lightBtn.begin();
 
     // Creo l'icona
-    settings->setCode(settings_icon);
-    settings->setIndex(2);
+    settings.setCode(settings_icon);
+    settings.setIndex(2);
 
     // Formatto il pulsante impostazioni
-    setBtn->setSurface(surface);
-    setBtn->setLocation(createLocation(13, 2));
+    setBtn.setSurface(surface);
+    setBtn.setLocation(createLocation(13, 2));
     // Aggiungo l'icona
-    setBtn->setIcon(settings);
-    setBtn->enable();
-    setBtn->begin();
+    setBtn.setIcon(&settings);
+    setBtn.enable();
+    setBtn.begin();
+
+    // Formatto gli indicatori di stato della sveglia
+    sdState.setSurface(surface);
+    sdState.setLocation(createLocation(16, 3));
+    // Creo l'icona della scheda sd
+    sdState.setIcon(&sdIcon);
+    sdState.begin();
+    sdState.hide();
+
+    rtcState.setSurface(surface);
+    rtcState.setLocation(createLocation(17, 3));
+    rtcState.setIcon(&rtcIcon);
+    rtcState.begin();
+    rtcState.hide();
+
+    alrmState.setSurface(surface);
+    alrmState.setLocation(createLocation(18, 3));
+    alrmState.setIcon(&alarmIcon);
+    alrmState.begin();
+    alrmState.hide();
 
     // Aggiungo i controlli
-    mainWin->add(timeBtn);
-    mainWin->add(lightBtn);
-    mainWin->add(setBtn);
+    mainWin.add(&timeBtn);
+    mainWin.add(&lightBtn);
+    mainWin.add(&setBtn);
+    mainWin.add(&sdState);
+    mainWin.add(&rtcState);
+    mainWin.add(&alrmState);
 
     // Aggiungo la finestra main a windows
-    windows->setMain(windows->add(mainWin));
+    windows.addMain(&mainWin);
 }
 
-/// Inizializza la finestra tempo
-static void initLightWindow(LiquidCrystal_I2C *surf, void (*bigLight)(GEvent*), void (*readLight)(GEvent*), void (*seeLight)(GEvent*)){
+/**
+ * \brief Inizializza la finestra per le luci, ne crea e aggiunge i controlli
+ * @param surf superficie su cui disegnare
+ * @param bigLight Gestore per il cambiamenteo di stato della luce grossa
+ * @param readLight Gestore per il cambiamenteo di stato della luce da lettura
+ * @param seeLight Gestore per il cambiamento di stato della luce da vista
+ */
+static void initLightWindow(LiquidCrystal_I2C *surf, void (*readLight)(GEvent*), void (*seeLight)(GEvent*)){
     // Imposto la superficie
-    lightsWin->setSurface(surf);
+    lightsWin.setSurface(surf);
     // Imposto il pulsante indietro
-    lightsWin->setBackBtnPos(BackBtnPos::TopLeft);
-    lightsWin->setBackBtnType(BackBtnType::Medium);
-    lightsWin->setShowBackBtn(true);
+    lightsWin.setBackBtnPos(BackBtnPos::TopLeft);
+    lightsWin.setBackBtnType(BackBtnType::Medium);
+    lightsWin.setShowBackBtn(true);
     // Imposto il gestore per il pulsante indietro
-    lightsWin->setBackBtnHandle(core_manage_show_main_win);
-    // Creo l'etichetta per lo stato della luce grossa
-    bigLightState->setLocation(createLocation(3,1));
-    // Imposto la superficie
-    bigLightState->setSurface(surf);
-
-    // Aggiungo l'etichetta alla finestra
-    lightsWin->add(bigLightState);
-
-    // Imposto la superficie
-    setBigLight->setSurface(surf);
-    // Abilito il pulante
-    setBigLight->enable();
-    // Imposto la posizione
-    setBigLight->setLocation(createLocation(3,2));
-    // Imposto il gestore eventi
-    setBigLight->setEventHandler(bigLight);
-
-    // Aggiungo il pulsante
-    lightsWin->add(setBigLight);
+    lightsWin.setBackBtnHandle(core_manage_show_main_win);
 
     // Inizializzo l' indicatore della luce da lettura:
     // Imposto la superficie
-    readLightState->setSurface(surf);
+    readLightState.setSurface(surf);
     // Imposto la posizione
-    readLightState->setLocation(createLocation(3, 2));
+    readLightState.setLocation(createLocation(3, 2));
 
     // Aggiungo alla finestra
-    lightsWin->add(readLightState);
+    lightsWin.add(&readLightState);
 
     // Inizializzo il pulsante per la luce da lettura
     // Imposto la surface
-    setReadLight->setSurface(surf);
+    setReadLight.setSurface(surf);
     // Imposto la posizione
-    setReadLight->setLocation(createLocation(14, 2));
+    setReadLight.setLocation(createLocation(14, 2));
     // Imposto il gestore degli eventi
-    setReadLight->setEventHandler(readLight);
+    setReadLight.setEventHandler(readLight);
 
-    lightsWin->add(setReadLight);
+    lightsWin.add(&setReadLight);
 
     // Imposto l'etichetta della luce da vista
-    seeLightState->setSurface(surf);
-    seeLightState->setLocation(createLocation(3,3));
+    seeLightState.setSurface(surf);
+    seeLightState.setLocation(createLocation(3,3));
 
     // Aggiungo il controllo
-    lightsWin->add(seeLightState);
+    lightsWin.add(&seeLightState);
 
     // Imposto il pulsante per invertire lo stato della luce da vista
     // Imposto la superficie
-    setSeeLight->setSurface(surf);
+    setSeeLight.setSurface(surf);
     // Imposto la posizione
-    setSeeLight->setLocation(createLocation(14,3));
+    setSeeLight.setLocation(createLocation(14,3));
     // Imposto il gestore
-    setSeeLight->setEventHandler(seeLight);
+    setSeeLight.setEventHandler(seeLight);
 
     // Aggiungo l'elemento
-    lightsWin->add(setSeeLight);
+    lightsWin.add(&setSeeLight);
     //Aggingo la finestra alla raccolta
-    windows->add(lightsWin);
+    windows.add(&lightsWin);
 }
 
 /// Inizializza la finestra tempo
-static void initTimesWindow(LiquidCrystal_I2C *surf, void (*alarmSet)(GEvent *event)){
+static void initTimesWindow(LiquidCrystal_I2C *surf, void (*alarmSet)(GEvent *event), void (*onWinDraw)(GEvent*), void (*alarmInfoRequest)(GEvent *)){
     // Imposto la superficie
-    timesWin->setSurface(surf);
+    timesWin.setSurface(surf);
     // Imposto il pulsante indietro
-    timesWin->setBackBtnPos(BackBtnPos::TopLeft);
-    timesWin->setBackBtnType(BackBtnType::Medium);
-    timesWin->setShowBackBtn(true);
+    timesWin.setBackBtnPos(BackBtnPos::TopLeft);
+    timesWin.setBackBtnType(BackBtnType::Medium);
+    timesWin.setShowBackBtn(true);
     // Imposto il gestore
-    timesWin->setBackBtnHandle(core_manage_show_main_win);
-
+    timesWin.setBackBtnHandle(core_manage_show_main_win);
+    timesWin.setOnDrawFunction(onWinDraw);
     // Imposto l'etichetta che mostra l'ora
-    timeLabel->setSurface(surf);
-    timeLabel->setLocation(createLocation(1,1));
-    timeLabel->setIcon(nullptr);
+    timeLabel.setSurface(surf);
+    timeLabel.setIcon(nullptr);
+    timeLabel.setLocation(createLocation(1, 1));
 
     // Aggiungo l'icona alla finestra
-    timesWin->add(timeLabel);
+    timesWin.add(&timeLabel);
 
     // Inizializzo l'etichetta per la data
-    dateLabel->setSurface(surf);
-    dateLabel->setLocation(createLocation(10,1));
-    dateLabel->setIcon(nullptr);
+    dateLabel.setSurface(surf);
+    dateLabel.setIcon(nullptr);
+    dateLabel.setLocation(createLocation(8, 1));
 
-    // Aggiungo l'etichetta alla finestra
-    timesWin->add(dateLabel);
+//     Aggiungo l'etichetta alla finestra
+    timesWin.add(&dateLabel);
 
     // Inizializzo l'etcihetta per il giorno
-    dayLabel->setSurface(surf);
-    dayLabel->setLocation(createLocation(16,0));
-    dayLabel->setIcon(nullptr);
+    dayLabel.setSurface(surf);
+    dayLabel.setLocation(createLocation(16,0));
+    dayLabel.setIcon(nullptr);
 
-    timesWin->add(dayLabel);
+    timesWin.add(&dayLabel);
 
     // Formatto l'indicatore dello stato dell' allarme
-    alarmInd->setSurface(surf);
-    alarmInd->setLocation(createLocation(1,2));
-    alarmInd->setIcon(nullptr);
+    alarmInd.setSurface(surf);
+    alarmInd.setLocation(createLocation(1,2));
+    alarmInd.setIcon(nullptr);
     // Inizializzo l'etichetta
-    alarmInd->begin();
+    alarmInd.begin();
     // Aggiungo il controllo
-    timesWin->add(alarmInd);
+    timesWin.add(&alarmInd);
 
     // Formatto il pulsante per lo stato
-    alarmState->setSurface(surf);
-    alarmState->setLocation(createLocation(10,2));
-    alarmState->setIcon(nullptr);
-    alarmState->setEventHandler(alarmSet);
-    alarmState->enable();
+    alarmState.setSurface(surf);
+    alarmState.setLocation(createLocation(10,2));
+    alarmState.setIcon(nullptr);
+    alarmState.setEventHandler(alarmSet);
+    alarmState.enable();
+
+    alarmInfo.setSurface(surf);
+    alarmInfo.setLocation(createLocation(14, 3));
+    alarmInfo.setIcon(nullptr);
+    alarmInfo.setEventHandler(alarmInfoRequest);
+    alarmInfo.disable();
+
     // Aggiungo
-    timesWin->add(alarmState);
+    timesWin.add(&alarmState);
+    timesWin.add(&alarmInfo);
 
     // Aggiungo la finestra al raccoglitore
-    windows->add(timesWin);
+    windows.add(&timesWin);
 }
 
 /// Inizializza la finestra per l'impostazione dell' allarme
 static void initAlarmWindow(LiquidCrystal_I2C *surf, void (*hour_func)(GEvent *event), void (*minute_fun)(GEvent *event), void (*save_fun)(GEvent *event)){
+    // Imposto la superficie della finestra
+    alarmWin.setSurface(surf);
+    // Formatto il pulsante indietro
+    alarmWin.setBackBtnPos(BackBtnPos::TopLeft);
+    alarmWin.setShowBackBtn(true);
+    alarmWin.setBackBtnType(BackBtnType::Medium);
+    alarmWin.setBackBtnHandle(core_manage_show_time_win);
 
+    activeLabel.setSurface(surf);
+    activeLabel.setLocation(createLocation(8, 1));
+    activeLabel.setIcon(nullptr);
+
+    // Formatto i pulsanti per impostare l'orario della sveglia
+    hourAlSet.setSurface(surf);
+    hourAlSet.setLocation(createLocation(10, 2));
+    hourAlSet.setEventHandler(hour_func);
+    hourAlSet.setIcon(nullptr);
+
+    minuteAlSet.setSurface(surf);
+    minuteAlSet.setLocation(createLocation(13, 2));
+    minuteAlSet.setEventHandler(minute_fun);
+    minuteAlSet.setIcon(nullptr);
+
+    okAlBtn.setSurface(surf);
+    okAlBtn.setLocation(createLocation(14, 3));
+    okAlBtn.setEventHandler(save_fun);
+
+    // Formatto il separatore
+    separator.setSurface(surf);
+    separator.setLocation(createLocation(12, 2));
+
+    // Aggiungo un hh:mm per visualizzare l'orario corrente
+    alarmWin.add(&timeLabel);
+
+    alarmWin.add(&activeLabel);
+    alarmWin.add(&hourAlSet);
+    alarmWin.add(&minuteAlSet);
+    alarmWin.add(&separator);
+    alarmWin.add(&okAlBtn);
+
+    // Aggiungo al gestore delle finestre
+    windows.add(&alarmWin);
 }
 
 #endif // INTERF_START
